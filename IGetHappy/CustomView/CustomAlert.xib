@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="roboto_regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomAlert" customModule="IGetHappy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W5k-Tp-LLD" customClass="CustomAlert" customModule="IGetHappy" customModuleProvider="target">
+                    <rect key="frame" x="22.5" y="233.5" width="330" height="200.5"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addCareRecieverEmail" translatesAutoresizingMaskIntoConstraints="NO" id="ak0-kZ-ktO">
+                            <rect key="frame" x="127" y="15" width="66" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="ak0-kZ-ktO" secondAttribute="height" multiplier="11:6" id="t2j-R0-BAl"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An email has been sent to Varsha for consent." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPi-ym-BIv">
+                            <rect key="frame" x="8" y="79" width="317" height="42.5"/>
+                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9N-mY-7Ie">
+                            <rect key="frame" x="5" y="155.5" width="320" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="xkk-Iv-sWY"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
+                            <state key="normal" title="Okay" backgroundImage="globalHorizontalBG"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="okayButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="N4g-jc-Hgq"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="C9N-mY-7Ie" secondAttribute="trailing" constant="5" id="4QM-Y7-MLu"/>
+                        <constraint firstItem="IPi-ym-BIv" firstAttribute="leading" secondItem="W5k-Tp-LLD" secondAttribute="leading" constant="8" id="8ip-XZ-9ND"/>
+                        <constraint firstItem="ak0-kZ-ktO" firstAttribute="top" secondItem="W5k-Tp-LLD" secondAttribute="top" constant="15" id="GfH-FF-J9N"/>
+                        <constraint firstItem="C9N-mY-7Ie" firstAttribute="top" secondItem="IPi-ym-BIv" secondAttribute="bottom" constant="34" id="RVD-5y-cQz"/>
+                        <constraint firstAttribute="trailing" secondItem="IPi-ym-BIv" secondAttribute="trailing" constant="5" id="VId-u2-VmA"/>
+                        <constraint firstItem="C9N-mY-7Ie" firstAttribute="leading" secondItem="W5k-Tp-LLD" secondAttribute="leading" constant="5" id="hJP-7F-zh7"/>
+                        <constraint firstItem="ak0-kZ-ktO" firstAttribute="centerX" secondItem="W5k-Tp-LLD" secondAttribute="centerX" multiplier="0.97" id="sGF-Ju-V9e"/>
+                        <constraint firstItem="IPi-ym-BIv" firstAttribute="top" secondItem="ak0-kZ-ktO" secondAttribute="bottom" constant="28" id="w8K-bc-zRO"/>
+                        <constraint firstItem="IPi-ym-BIv" firstAttribute="centerY" secondItem="W5k-Tp-LLD" secondAttribute="centerY" id="x4d-SY-Nuz"/>
+                        <constraint firstAttribute="bottom" secondItem="C9N-mY-7Ie" secondAttribute="bottom" constant="5" id="xC8-OO-laZ"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="W5k-Tp-LLD" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.88" id="75v-XZ-2Vp"/>
+                <constraint firstItem="W5k-Tp-LLD" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="kgl-V4-Tbg"/>
+                <constraint firstItem="W5k-Tp-LLD" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="wVw-Jq-aRV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="alertMessageLabel" destination="IPi-ym-BIv" id="qnf-Bs-Rew"/>
+                <outlet property="okayButton" destination="C9N-mY-7Ie" id="SEN-2f-xZd"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="148.87556221889056"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="addCareRecieverEmail" width="66" height="36"/>
+        <image name="globalHorizontalBG" width="414" height="76"/>
+    </resources>
+</document>

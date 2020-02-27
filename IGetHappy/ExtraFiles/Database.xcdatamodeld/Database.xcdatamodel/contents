@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G9016" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Happy_Memories" representedClassName="Happy_Memories" syncable="YES" codeGenerationType="class">
+        <attribute name="asset" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="table_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Happy_Memories_Changes" representedClassName="Happy_Memories_Changes" syncable="YES" codeGenerationType="class">
+        <attribute name="audio_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="group" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_data" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video_path" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Happy_Memories_Gallery" representedClassName="Happy_Memories_Gallery" syncable="YES" codeGenerationType="class">
+        <attribute name="asset" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="file_URI" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_downloaded" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_offline" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="table_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unique_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MoodLog_Events" representedClassName="MoodLog_Events" syncable="YES" codeGenerationType="class">
+        <attribute name="audio_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="care_rcvr_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="change_file_status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="event_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="events_activity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="file_name_audio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="file_name_video" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_posted" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mood_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mood_index" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="mood_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="privacy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="table_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="upload_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video_path" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Offline_Emoji" representedClassName="Offline_Emoji" syncable="YES" codeGenerationType="class">
+        <attribute name="current_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icon_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="is_posted" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mood_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mood_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="table_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Reminders" representedClassName="Reminders" syncable="YES" codeGenerationType="class">
+        <attribute name="complete_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="day_for_recurring" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notification_ids" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recurring_approach" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="table_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text_info" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="total_dates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trigger_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="trigger_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Happy_Memories" positionX="-63" positionY="36" width="128" height="150"/>
+        <element name="Happy_Memories_Changes" positionX="-63" positionY="135" width="128" height="165"/>
+        <element name="Happy_Memories_Gallery" positionX="-63" positionY="135" width="128" height="210"/>
+        <element name="MoodLog_Events" positionX="-63" positionY="63" width="128" height="345"/>
+        <element name="Offline_Emoji" positionX="-63" positionY="-18" width="128" height="195"/>
+        <element name="Reminders" positionX="-63" positionY="135" width="128" height="270"/>
+    </elements>
+</model>
