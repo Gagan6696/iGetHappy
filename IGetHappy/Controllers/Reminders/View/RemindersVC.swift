@@ -90,6 +90,7 @@ class RemindersVC: UIViewController
     {
         let story = UIStoryboard.init(name: "Meditation", bundle: nil)
         let controller = story.instantiateViewController(withIdentifier: "SetRemindersVC")as! SetRemindersVC
+        controller.isFromSideBar = true
         self.navigationController?.pushViewController(controller, animated: true)
     }
     

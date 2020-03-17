@@ -89,6 +89,13 @@ class ShareMoodPost: UICollectionViewCell
                 return
             }
             
+//            let localDate = Utility.UTCToLocalMoodLog(UTCDateString: item?.post_postTimeStamp ?? "", format: "EEEE,ddMMM hh:mmaa-yyyy")
+//            lblTime.text = localDate
+            if item?.post_mood_track_time != nil{
+                    let localDate = Utility.UTCToLocalMoodLog(UTCDateString: item?.post_mood_track_time ?? "", format: "EEEE,ddMMM hh:mmaa-yyyy")
+                    lblTime.text = localDate
+            }
+           
             //Set name and images according to anonymus status
             Utility.setUserDetailOnPost(selectedData: item,
                                         userTitle: lblUserName,
@@ -256,6 +263,7 @@ extension ShareMoodPost :UITableViewDataSource,UITableViewDelegate{
         cell.btnReply.tag = indexPath.row
         let data = postCommentArray?[indexPath.row]
         cell.imgView.layer.cornerRadius = cell.imgView.frame.height/2
+        Utility.loadImage(onImageView: cell.imgView, imageURLString: data?.profileImage ?? "", placeHolder: "community_listing_user")
         cell.lblProfileName.text = data?.username
         cell.delegate = self
         cell.lblComment.text = data?.comment

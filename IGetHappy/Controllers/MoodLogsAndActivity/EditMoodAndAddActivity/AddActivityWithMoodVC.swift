@@ -23,7 +23,7 @@ class AddActivityWithMoodVC: BaseUIViewController
     @IBOutlet weak var myCollectionView: UICollectionView!
     //Dont delete this(use for multi selection)
     //var selectedIndex = [Int]()
-    var selectedIndex = Int()
+    var selectedIndex:Int = -1
     @IBOutlet weak var btnAddEmoji: UIButton!
     
     @IBOutlet weak var lblTrackingName: UILabel!
@@ -145,6 +145,10 @@ class AddActivityWithMoodVC: BaseUIViewController
         view2.layer.borderWidth = 1
         view2.layer.cornerRadius = 20
         
+        
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         let layout = UPCarouselFlowLayout()
         layout.itemSize = CGSize(width: 100, height: 100)
         layout.scrollDirection = .horizontal
@@ -152,9 +156,6 @@ class AddActivityWithMoodVC: BaseUIViewController
         self.setupLayout()
         self.currentPage = ExtensionModel.shared.Emoji_CurrentPage
         self.GET_SAVED_EMOJIS()
-    }
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
         let url = URL(string:  UserDefaults.standard.getProfileImage() ?? "")
         self.imgViewUser.setRounded()
         if (url != nil){
@@ -186,7 +187,12 @@ class AddActivityWithMoodVC: BaseUIViewController
            //SET EMOJI TO THE CURRENT MOOD
            self.currentPage = ExtensionModel.shared.Emoji_CurrentPage
            EditMoodActivityData.sharedInstance?.evnt_id = Singleton.shared().updated_emojy_eventID
-           self.myCollectionView.scrollToItem(at:IndexPath(item: self.currentPage, section: 0), at: .centeredHorizontally, animated: true)
+            //self.collectionView.reloadData()
+            DispatchQueue.main.async {
+                self.myCollectionView.scrollToItem(at:IndexPath(item: self.currentPage, section: 0), at: .centeredHorizontally, animated: true)
+                self.myCollectionView.layoutIfNeeded()
+                self.myCollectionView.reloadData()
+            }
         }
         else
         {
@@ -195,7 +201,13 @@ class AddActivityWithMoodVC: BaseUIViewController
             let name =  obj?.moodTrack
             EditMoodActivityData.sharedInstance?.evnt_id = obj?._id
             self.currentPage = CommonVc.AllFunctions.get_emojy_index_from_name(name: name ?? "")
+            let index = getIndex(of: "image", for: obj?.eventsActivity ?? "", in: dictImages)
+            
+           self.selectedIndex = index
+            self.collectionView.reloadData()
             self.myCollectionView.scrollToItem(at:IndexPath(item: self.currentPage, section: 0), at: .centeredHorizontally, animated: true)
+            self.myCollectionView.layoutIfNeeded()
+            self.myCollectionView.reloadData()
         }
         
     }
@@ -403,8 +415,14 @@ extension AddActivityWithMoodVC : UICollectionViewDataSource, UICollectionViewDe
 //                selectedIndex.append(indexPath.row)
 //            }
             
+            if (selectedIndex == indexPath.row){
+                selectedIndex = -1
+                EditMoodActivityData.sharedInstance?.eventsActivity = " "
+            }else{
+                selectedIndex = indexPath.row
+            }
             
-            selectedIndex = indexPath.row
+            
             self.collectionView.reloadData()
             // image = image.maskWithColor(color: .green )
             

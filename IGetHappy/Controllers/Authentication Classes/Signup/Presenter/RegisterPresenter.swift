@@ -52,8 +52,11 @@ class RegisterPresenter{
             self.delegate.RegisterDidFailed(message: message)
             
         }, completionError: { (message) in
-            
+            self.RegisterDelegateView?.hideLoader()
+            self.delegate.RegisterDidFailed(message: "\(message)")
         }) { (error) in
+            self.RegisterDelegateView?.hideLoader()
+            self.delegate.RegisterDidFailed(message: "The request timed out")
             print(error)
         }
         
@@ -69,10 +72,11 @@ class RegisterPresenter{
             self.delegate.RegisterPhoneDidFailed(message: message)
             
         }, completionError: { (message) in
-            
+            self.RegisterDelegateView?.hideLoader()
+            self.delegate.RegisterPhoneDidFailed(message: "\(message)")
         }) { (error) in
              self.RegisterDelegateView?.hideLoader()
-            self.delegate.RegisterPhoneDidFailed(message: error)
+            self.delegate.RegisterPhoneDidFailed(message: "The request timed out")
             print(error)
         }
     }

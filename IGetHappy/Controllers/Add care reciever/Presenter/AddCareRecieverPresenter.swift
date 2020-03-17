@@ -88,7 +88,7 @@ class AddCareRecieverPresenter{
  
     }
     
-    func Validations(careRecieverName:String?,phoneNumber:String?,emailAddress:String?,profilePic:UIImage?) throws{
+    func Validations(careRecieverName:String?,phoneNumber:String?,emailAddress:String?,profilePic:UIImage?,relationship:String?) throws{
         var CareRecieverName:String?
         var PhoneNumber:String?
         var EmailAddress:String?
@@ -102,6 +102,7 @@ class AddCareRecieverPresenter{
         {
             throw ValidationError.AddCareReciever.emptyName
         }
+        
         if(!(CareRecieverName1.nameMinLength)){
             throw ValidationError.AddCareReciever.MinLengthName
         }
@@ -131,7 +132,10 @@ class AddCareRecieverPresenter{
         if(!(EmailAddress1.isEmail)){
             throw ValidationError.AddCareReciever.wrongEmail
         }
-        
+        guard let Relationship = relationship,  !Relationship.isEmpty, !Relationship.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else
+        {
+            throw ValidationError.AddCareReciever.emptyRelation
+        }
     }
     
 }

@@ -86,7 +86,15 @@ class CommonFunctions
             return
         }
         
-        
+        if let obj =  ToController.viewcontroller as? ChooseMoodVC{
+            if let isFrom = Data as? String
+            {
+                obj.from_activity_controller = isFrom as String
+            }
+            Target.navigationController?.pushViewController(obj, animated: true)
+            return
+        }
+
         if let obj =  ToController.viewcontroller as? PreviewVC{
             if let url = Data as? URL
             {

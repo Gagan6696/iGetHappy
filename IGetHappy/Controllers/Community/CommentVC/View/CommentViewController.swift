@@ -369,7 +369,7 @@ extension CommentViewController : UITableViewDelegate,UITableViewDataSource
             self.myTableView.backgroundView = nil
             return commentPostData?.data?.count ?? 0
         }else{
-            self.myTableView.setEmptyMessage("No comments found")
+           // self.myTableView.setEmptyMessage("No comments found")
             return 0
         }
 

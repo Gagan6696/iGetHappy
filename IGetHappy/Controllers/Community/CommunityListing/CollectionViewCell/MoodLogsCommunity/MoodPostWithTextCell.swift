@@ -180,6 +180,7 @@ extension MoodPostWithTextCell :UITableViewDataSource,UITableViewDelegate{
         cell.btnReply.tag = indexPath.row
         //cell.btnReply.addTarget(self, action: "actionReply", for: UIControl.Event.touchUpInside)
         cell.imgView.layer.cornerRadius = cell.imgView.frame.height/2
+        Utility.loadImage(onImageView: cell.imgView, imageURLString: data?.profileImage ?? "", placeHolder: "community_listing_user")
         cell.lblProfileName.text = data?.username
         cell.delegate = self
         cell.lblComment.text = data?.comment

@@ -134,6 +134,7 @@ extension MenuVC : UITableViewDelegate, UITableViewDataSource
             self.view.isUserInteractionEnabled = false
             let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
             let vc = storyboard.instantiateViewController(withIdentifier: RemindersVC.className)
+           
             let frontVC = revealViewController().frontViewController as? UINavigationController
             frontVC?.pushViewController(vc, animated: false)
             revealViewController().pushFrontViewController(frontVC, animated: true)

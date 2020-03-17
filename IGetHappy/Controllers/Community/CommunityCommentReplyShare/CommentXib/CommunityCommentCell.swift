@@ -21,6 +21,7 @@ class CommunityCommentCell: UITableViewCell{
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        imgView.setRounded()
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {

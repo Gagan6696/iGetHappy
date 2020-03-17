@@ -203,8 +203,8 @@ extension CommunityListingViewController: UICollectionViewDataSource
                 //cell.btnPlay.addTarget(self, action: #Selecter(), for: UIControl.Event.normal)
                 
                 cell.btnPlay.addTarget(self, action: #selector(HANDLE_PLAY_BUTTON_ACTION(sender:)), for: .touchUpInside)
-                
                 cell.item = postData
+               
                 cell.lblPostName.text = postData?.post_description
                 
                 //Profile Image who has shared post
@@ -743,7 +743,7 @@ extension CommunityListingViewController : UtilityDelegate
 //       let j3 = j2.replacingOccurrences(of: "privacyOption", with: "privacy_option")
 //        let j4 = j3.replacingOccurrences(of: "postDescription", with: "description")
         
-        let modifiedJSON = json.replacingMultipleOccurrences(using: (of: "postId", with: "_id"), (of: "userId", with: "user_id"), (of: "privacyOption", with: "privacy_option"), (of: "postDescription", with: "description"), (of: "postfile", with: "post_upload_file"))
+        let modifiedJSON = json.replacingMultipleOccurrences(using: (of: "postId", with: "_id"), (of: "userId", with: "user_id"), (of: "privacyOption", with: "privacy_option"), (of: "postDescription", with: "description"), (of: "postfile", with: "post_upload_file"), (of: "postType", with: "post_upload_type"))
         
         let moodLogData = Mapper<MoodLogDetails>().mapArray(JSONString: modifiedJSON)
         let story = UIStoryboard.init(name: "MoodLogs", bundle: nil)

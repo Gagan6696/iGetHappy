@@ -59,6 +59,7 @@ class ValidationError{
         case wrongEmail
         case emailMinLength
         case validPhoneNumber
+        case emptyRelation
         
     }
     enum Forgot: Error{

@@ -82,6 +82,15 @@ class MySharedPosts: UICollectionViewCell
                 return
             }
             
+            if (item?.post_postTimeStamp != nil){
+                
+               // Utility.UTCToLocal(UTCDateString: selectedData?.postTimeStamp ?? "", format: "yyyy-MM-dd'T'HH:mm:ss.SSSZ")
+                
+                let localDate = Utility.UTCToLocal(UTCDateString: item?.post_postTimeStamp ?? "", format: "yyyy-MM-dd'T'HH:mm:ss.SSSZ")
+                
+                lblTime.text =  Utility.dateConvertToISOString(string: localDate)
+            }
+            
             //Set name and images according to anonymus status
             Utility.setUserDetailOnPost(selectedData: item,
                                         userTitle: lblUserName,
@@ -248,6 +257,7 @@ extension MySharedPosts :UITableViewDataSource,UITableViewDelegate{
         cell.btnReply.tag = indexPath.row
         let data = postCommentArray?[indexPath.row]
         cell.imgView.layer.cornerRadius = cell.imgView.frame.height/2
+        Utility.loadImage(onImageView: cell.imgView, imageURLString: data?.profileImage ?? "", placeHolder: "community_listing_user")
         cell.lblProfileName.text = data?.username
         cell.delegate = self
         cell.lblComment.text = data?.comment

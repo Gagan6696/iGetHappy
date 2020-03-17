@@ -9,7 +9,6 @@
 import Foundation
 import ObjectMapper
 
-
 class AddCareRecieverData: Mappable {
     
     var status : Int?
@@ -19,8 +18,7 @@ class AddCareRecieverData: Mappable {
     required init?(map: Map) {
         
     }
-    
-    
+
     func mapping(map: Map) {
         status  <- map["status"]
         message <- map["message"]

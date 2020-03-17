@@ -67,6 +67,31 @@ open class BaseUIViewController: UIViewController
         
     }
     
+    func find(value searchValue: String, in array: [String]) -> Int?
+    {
+        for (index, value) in array.enumerated()
+        {
+            if value == searchValue {
+                return index
+            }
+        }
+        
+        return nil
+    }
+    
+    func getIndex(of key: String, for value: String, in dictionary : [[String: Any]]) -> Int{
+        var count = 0
+        for dictElement in dictionary{
+            if dictElement.keys.contains(key) && dictElement[key] as! String == value{
+                return count
+            }
+            else{
+                count = count + 1
+            }
+        }
+        return -1
+        
+    }
     
     func getCurrentLocale() -> String{
         let locale  = (Locale.current as NSLocale).object(forKey: .countryCode) as? String
@@ -821,12 +846,13 @@ extension NSObject{
     func dateFromISOStringPastMoodLog(string: String) -> String?
     {
         let dateFormatter = DateFormatter()
-        dateFormatter.locale = Locale(identifier: "en_US_POSIX")
-        dateFormatter.timeZone = TimeZone.autoupdatingCurrent
+        dateFormatter.locale = Locale.current
+        dateFormatter.timeZone = TimeZone.current
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss Z"
         
         let dt = dateFormatter.date(from: string)
-        dateFormatter.timeZone = TimeZone.current
+        dateFormatter.timeZone =  TimeZone(identifier: "UTC")
+        dateFormatter.locale =  Locale.current
         dateFormatter.dateFormat =  "EEEE,ddMMM hh:mmaa"
         print("\(dateFormatter.string(from: dt!))")
         return dateFormatter.string(from: dt!)
@@ -837,7 +863,7 @@ extension NSObject{
     {
         let dateFormatter = DateFormatter()
         dateFormatter.locale = Locale.current
-        dateFormatter.timeZone = TimeZone(identifier: "UTC")
+        dateFormatter.timeZone = TimeZone.current
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss Z"
         
         let dt = dateFormatter.date(from: string)
@@ -854,7 +880,7 @@ extension NSObject{
     {
         let dateFormatter = DateFormatter()
         dateFormatter.locale = Locale.current
-        dateFormatter.timeZone = TimeZone(identifier: "UTC")
+        dateFormatter.timeZone = TimeZone.current
         
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss Z"
         

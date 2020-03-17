@@ -61,7 +61,8 @@ class MeditationSetGoalVC: UIViewController
         MeditationExplore.refrncPagerParent.skip()
     }
     @IBAction func actionBack(_ sender: Any) {
-        CommonFunctions.sharedInstance.popTocontroller(from: self)
+         MeditationExplore.refrncPagerParent.moveback(self)
+        //CommonFunctions.sharedInstance.popTocontroller(from: self)
     }
     
     @IBAction func actionNext(_ sender: Any)

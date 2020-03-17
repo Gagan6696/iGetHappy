@@ -136,7 +136,6 @@ enum ViewControllers
             return StoryBoards.Community.instantiateViewController(withIdentifier: ReplyVC.className)
         case .SharePost:
             return StoryBoards.Community.instantiateViewController(withIdentifier: SharedPostVC.className)
-    
         case .AddActivityWithMood:
             return StoryBoards.MoodLogs.instantiateViewController(withIdentifier: AddActivityWithMoodVC.className)
         case .JournelThoughts:
@@ -182,9 +181,6 @@ enum ViewControllers
             
         case .ReplyCommentVC:
             return StoryBoards.Community.instantiateViewController(withIdentifier: Constants.ReplyComment.Identifiers.KReplyVC)
-            
-            
-            
             
         case .MyVentsVC:
             return StoryBoards.Main.instantiateViewController(withIdentifier: Constants.myVentsTab.Identifiers.KMyVentsTabVC)

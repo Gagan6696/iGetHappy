@@ -79,9 +79,11 @@ class JournelYourThoughtsPresenter
             parm["description"] = EditMoodActivityData.sharedInstance?.description
         }
         
-        if(EditMoodActivityData.sharedInstance?.post_upload_file?.absoluteString.count ?? 0 > 0)
+    if(EditMoodActivityData.sharedInstance?.post_upload_file?.absoluteString.count ?? 0 > 0)
         {
             parm["post_upload_file"] = EditMoodActivityData.sharedInstance?.post_upload_file
+    }else{
+        parm["post_upload_file"] = ""
         }
         
         if(EditMoodActivityData.sharedInstance?.post_upload_type?.count ?? 0 > 0)

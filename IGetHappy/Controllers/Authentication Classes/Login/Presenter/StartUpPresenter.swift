@@ -124,7 +124,7 @@ class StartUpPresenter{
         }, completionError: { (error) in
             print(error)
             self.StartUpDelegateView?.hideLoader()
-            self.StartUpDelegateView?.showAlert(Message: "\(error)")
+            self.StartUpDelegateView?.showAlert(Message: Constants.Global.MessagesStrings.ServerError)
         }) { (networkerror) in
             self.StartUpDelegateView?.hideLoader()
             self.StartUpDelegateView?.showAlert(Message: Constants.Global.MessagesStrings.ServerError)

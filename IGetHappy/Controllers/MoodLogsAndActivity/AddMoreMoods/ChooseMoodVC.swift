@@ -13,7 +13,7 @@ class ChooseMoodVC: UIViewController {
     // var saveArray = NSArray()
     var mutableArray = NSMutableArray()
     var saveArray = NSMutableArray()
-    var from_activity_controller = "0"
+    var from_activity_controller:String?
     let oldEmojiIndx = ExtensionModel.shared.Emoji_CurrentPage
     var arr = NSArray()
     
@@ -151,7 +151,8 @@ class ChooseMoodVC: UIViewController {
     
     if (from_activity_controller == "1")
     {
-        CommonFunctions.sharedInstance.PushToContrller(from: self, ToController: .AddActivityWithMood, Data: nil)
+        CommonFunctions.sharedInstance.popTocontroller(from: self)
+       // CommonFunctions.sharedInstance.PushToContrller(from: self, ToController: .AddActivityWithMood, Data: nil)
     }
     else
     {

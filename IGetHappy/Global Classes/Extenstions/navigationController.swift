@@ -14,4 +14,12 @@ extension UINavigationController {
         guard count > 1 else { return nil }
         return viewControllers[count - 2]
     }
+    
+
+        
+        func getReference<ViewController: UIViewController>(to viewController: ViewController.Type) -> ViewController? {
+            return viewControllers.first { $0 is ViewController } as? ViewController
+        }
+  
+    
 }

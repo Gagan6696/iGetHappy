@@ -28,9 +28,10 @@ class AddCareRecieverVC: BaseUIViewController {
     var storedCareRecieverId = [String]()
     var presenter:AddCareRecieverPresenter?
     var selcted_avatar:UIImage!
-    var selectedIndex:Int = 0
+    var selectedIndex:Int = -1
     var relationship:String?
     var isMinor:String?
+    var isLegalGuardian:Bool? = false
     var delegate:AddActivityWithMoodVC?
     var logoImage: [UIImage] = [
         UIImage(named: "profile_man1")!,
@@ -56,7 +57,8 @@ class AddCareRecieverVC: BaseUIViewController {
         super.viewDidLoad()
         self.selcted_avatar = UIImage.init(named: "userProfileSetupAvtar1")
         isMinor = "YES"
-        relationship  = "Father"
+        isLegalGuardian = false
+        relationship  = ""
         btnYes.setImage(#imageLiteral(resourceName: "addCareRecieverSelect"), for: .normal)
         btnNo.setImage(#imageLiteral(resourceName: "addCareRecieverUnselect"), for: .normal)
         btnNo.centerTextAndImage(spacing: 10.0)
@@ -104,13 +106,27 @@ class AddCareRecieverVC: BaseUIViewController {
             
             
             if(relationship == "Father" || relationship == "Mother" ){
-                btnYes.setImage(#imageLiteral(resourceName: "addCareRecieverSelect"), for: .normal)
-                btnNo.setImage(#imageLiteral(resourceName: "addCareRecieverUnselect"), for: .normal)
-                 isMinor = "YES"
+                
+                self.AlertMessageWithOkCancelAction(titleStr: Constants.Global.ConstantStrings.KAppname, messageStr: "Are you a legal guardian?", Target: self) { (message) in
+                    if(message == "Yes"){
+                        self.btnYes.setImage(#imageLiteral(resourceName: "addCareRecieverSelect"), for: .normal)
+                        self.btnNo.setImage(#imageLiteral(resourceName: "addCareRecieverUnselect"), for: .normal)
+                        self.isMinor = "YES"
+
+                        self.select_Relation.reloadData()
+                        self.isLegalGuardian = true
+                    }else{
+                        self.selectedIndex = -1
+                         self.isMinor = "NO"
+                        self.select_Relation.reloadData()
+                        self.showAlert(alertMessage: "Sorry! You are  not authorized to add care reciever. You should be a legal guardian")
+                    }
+                }
             }else{
               //  btnYes.setImage(#imageLiteral(resourceName: "addCareRecieverUnselect"), for: .normal)
                // btnNo.setImage(#imageLiteral(resourceName: "addCareRecieverSelect"), for: .normal)
                 isMinor = "NO"
+                isLegalGuardian = false
                 self.showAlert(alertMessage: "Sorry! You are  not authorized to add care reciever.")
             }
             
@@ -164,7 +180,7 @@ class AddCareRecieverVC: BaseUIViewController {
 //                }
         
         do{
-            try presenter?.Validations(careRecieverName: self.txt_careRecieverName.text, phoneNumber: self.txt_phoneNumber.text, emailAddress: self.txt_emailAddress.text, profilePic: self.selced_img.image)
+            try presenter?.Validations(careRecieverName: self.txt_careRecieverName.text, phoneNumber: self.txt_phoneNumber.text, emailAddress: self.txt_emailAddress.text, profilePic: self.selced_img.image, relationship: relationship)
             
             if self.checkInternetConnection()
             {
@@ -197,6 +213,10 @@ class AddCareRecieverVC: BaseUIViewController {
             case ValidationError.AddCareReciever.emptyEmail:
                 self.view.makeToast(Constants.AddCareReciever.Validations.KEmptyEmail)
                 self.hideLoader()
+            case ValidationError.AddCareReciever.emptyRelation:
+                self.view.makeToast(Constants.AddCareReciever.Validations.KEmptyRelation)
+                self.hideLoader()
+                
             case ValidationError.AddCareReciever.emailMinLength:
                 self.view.makeToast(Constants.AddCareReciever.Validations.KMinLengthEmail)
                 self.hideLoader()
@@ -338,6 +358,13 @@ class AddCareRecieverVC: BaseUIViewController {
         
     }
     
+    func clearTextfeilds(){
+        self.txt_phoneNumber.text = nil
+        self.txt_emailAddress.text = nil
+        self.txt_careRecieverName.text = nil
+    }
+    
+    
 }
 extension AddCareRecieverVC: UICollectionViewDataSource, UICollectionViewDelegate{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -417,14 +444,17 @@ extension AddCareRecieverVC: UICollectionViewDataSource, UICollectionViewDelegat
                     if(relationship == "Father" || relationship == "Mother"){
                         self.AlertMessageWithOkCancelAction(titleStr: Constants.Global.ConstantStrings.KAppname, messageStr: "Are you a legal guardian?", Target: self) { (message) in
                             if(message == "Yes"){
-                                
+                                self.select_Relation.reloadData()
+                                self.isLegalGuardian = true
                             }else{
-                                
+                                self.selectedIndex = -1
+                                self.select_Relation.reloadData()
+                                self.showAlert(alertMessage: "Sorry! You are  not authorized to add care reciever. You should be a legal guardian")
                             }
                         }
                     }else{
-                        self.showAlert(alertMessage: "Sorry! You are  not authorized to add care reciever.")
-                        self.selectedIndex = 0
+                        self.showAlert(alertMessage: "Sorry! You are  not authorized to add care reciever. You should be a legal guardian")
+                        self.selectedIndex = -1
                         self.select_Relation.reloadData()
                     }
                     
@@ -456,29 +486,69 @@ extension AddCareRecieverVC:AddCareRecieverDelegate
 {
     func AddCareRecieverDidSucceeed(careRecieverId: String, emailID: String)
     {
-        
-        self.txt_phoneNumber.text = nil
-        self.txt_emailAddress.text = nil
-        self.txt_careRecieverName.text = nil
-        
         let customAlertView = CustomAlert.instanceFromNib()
         customAlertView.backgroundColor = UIColor.black.withAlphaComponent(0.5)
         customAlertView.frame = self.view.bounds
+        customAlertView.delegate = self
         
         if(isMinor == "NO")
         {
-            customAlertView.alertMessageLabel.text = "An email has been sent to " + emailID + " for consent."
+           // customAlertView.alertMessageLabel.text = "An email has been sent to " + emailID + " for consent."
+            let string1 = self.txt_careRecieverName.text ?? ""
+            let string2 = "has been added as a Care-Receiver and an email sent to"
+            let string3 = emailID
+            let string4 = "for consent. Please click Yes if you want to add another Care-Receiver or No to continue without adding another Care-Receiver"
+            
+//
+//            customAlertView.alertMessageLabel.text = self.txt_careRecieverName.text ??
+//                "" + "has been added as a Care-Receiver and an email sent to" + emailID + "for consent. Please click “Yes” if you want to add another Care-Receiver or “No” to continue without adding another Care-Receiver"
+            
+             customAlertView.alertMessageLabel.text = "\(string1) \(string2) \(string3) \(string4)"
+            
+             print(customAlertView.alertMessageLabel.text)
+            clearTextfeilds()
+            
             self.view.addSubview(customAlertView)
         }
         else
         {
             if let userNameString = UserDefaults.standard.getFirstName()
             {
-                customAlertView.alertMessageLabel.text = "An email has been sent to " + userNameString + " for consent."
+                
+                
+                let string1 = self.txt_careRecieverName.text ?? ""
+                let string2 = "has been added as a Care-Receiver and an email sent to"
+                let string3 = userNameString
+                let string4 = "for consent. Please click Yes if you want to add another Care-Receiver or No to continue without adding another Care-Receiver"
+                
+                //
+                //            customAlertView.alertMessageLabel.text = self.txt_careRecieverName.text ??
+                //                "" + "has been added as a Care-Receiver and an email sent to" + emailID + "for consent. Please click “Yes” if you want to add another Care-Receiver or “No” to continue without adding another Care-Receiver"
+                
+                customAlertView.alertMessageLabel.text = "\(string1) \(string2) \(string3) \(string4)"
+                
+                
+//                customAlertView.alertMessageLabel.text = self.txt_careRecieverName.text ??
+//                    "" + "has been added as a Care-Receiver and an email sent to" + userNameString + "for consent. Please click “Yes” if you want to add another Care-Receiver or “No” to continue without adding another Care-Receiver"
+                 print(customAlertView.alertMessageLabel.text)
+                clearTextfeilds()
+                //customAlertView.alertMessageLabel.text = "An email has been sent to " + userNameString + " for consent."
             }
             else
             {
-                customAlertView.alertMessageLabel.text = "An email has been sent to user for consent."
+                //customAlertView.alertMessageLabel.text = "An email has been sent to user for consent."
+                
+                let string1 = self.txt_careRecieverName.text ?? ""
+                let string2 = "has been added as a Care-Receiver and an email sent to"
+                let string3 = "User"
+                let string4 = "for consent. Please click Yes if you want to add another Care-Receiver or No to continue without adding another Care-Receiver"
+                
+                customAlertView.alertMessageLabel.text = "\(string1) \(string2) \(string3) \(string4)"
+                
+//                customAlertView.alertMessageLabel.text = self.txt_careRecieverName.text ??
+//                    "" + "has been added as a Care-Receiver and an email sent to user for consent. Please click “Yes” if you want to add another Care-Receiver or “No” to continue without adding another Care-Receiver"
+                print(customAlertView.alertMessageLabel.text)
+                clearTextfeilds()
             }
             
             self.view.addSubview(customAlertView)
@@ -517,6 +587,16 @@ extension AddCareRecieverVC:DeleteCareRecieverDelegate
     }
     
     
+    
+}
+
+extension AddCareRecieverVC:CustomAlertDelegate{
+    func NoButtonTapped(sender: UIButton) {
+        self.Add_More(self)
+    }
+    func YesButtonTapped(sender: UIButton) {
+        
+    }
     
 }
 //extension AddCareRecieverVC:UITextFieldDelegate{

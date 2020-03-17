@@ -64,9 +64,7 @@ class MeditationPagerVC: UIViewController,CAPSPageMenuDelegate
 //            self.myPager.currentPage = 2
 //            CommonVc.AllFunctions.hideLOADER(controller: self)
 //        }
-        
-        
-        
+
     }
     
     @objc func didTapGoToLeft()
@@ -105,6 +103,10 @@ class MeditationPagerVC: UIViewController,CAPSPageMenuDelegate
         {
             pageMenu!.moveToPage(currentIndex - 1)
              self.myPager.currentPage = currentIndex - 1
+        }else{
+            if currentIndex == 0{
+                CommonFunctions.sharedInstance.popTocontroller(from: self)
+            }
         }
     }
     
@@ -159,7 +161,7 @@ class MeditationPagerVC: UIViewController,CAPSPageMenuDelegate
     func handle_pager(index:Int)
     {
         self.myPager.currentPage = index
-        
+         MeditationHowItWorksVC.playerViewController.player?.pause()
         if (index >= 4)
         {
             self.btnBack.isHidden = true
@@ -168,6 +170,7 @@ class MeditationPagerVC: UIViewController,CAPSPageMenuDelegate
         }
         else
         {
+            
             self.btnBack.isHidden = false
             self.btnNext.isHidden = false
             self.viewButtonBG.isHidden = false

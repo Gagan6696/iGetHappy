@@ -60,7 +60,7 @@ class SetRemindersVC: UIViewController,UIScrollViewDelegate,UITextFieldDelegate
     var recurring_startDate_selected = false
     var alertTime_recurring:Date?
     var recurring_alert_type:String?
-    
+    var isFromSideBar:Bool = false
     var last_date_not_ongoing: Date?
     var firstDate: Date?
     var lastDate: Date?
@@ -149,7 +149,14 @@ class SetRemindersVC: UIViewController,UIScrollViewDelegate,UITextFieldDelegate
     
     @IBAction func ACTION_MOVE_BACK(_ sender: Any)
     {
-        CommonFunctions.sharedInstance.popTocontroller(from: self)
+        
+        if isFromSideBar{
+            CommonFunctions.sharedInstance.popTocontroller(from: self)
+        }else{
+             MeditationExplore.refrncPagerParent.moveback(self)
+        }
+        
+        //CommonFunctions.sharedInstance.popTocontroller(from: self)
     }
     @IBAction func ACTION_SKIP_CONTROLLER(_ sender: Any)
     {

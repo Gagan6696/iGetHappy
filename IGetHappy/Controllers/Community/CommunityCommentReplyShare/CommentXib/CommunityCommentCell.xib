@@ -23,12 +23,15 @@
                 <rect key="frame" x="0.0" y="0.0" width="401" height="99.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="community_listing_user" translatesAutoresizingMaskIntoConstraints="NO" id="o5D-Th-GrY">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o5D-Th-GrY">
                         <rect key="frame" x="5" y="5" width="50" height="50"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="50" id="5hi-hF-yIs"/>
                             <constraint firstAttribute="height" constant="50" id="5oL-PH-6qn"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                        </userDefinedRuntimeAttributes>
                     </imageView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bgE-GD-6EO">
                         <rect key="frame" x="65" y="5" width="331" height="54.5"/>
@@ -103,7 +106,6 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="community_listing_user" width="125" height="125"/>
         <image name="reply" width="48" height="48"/>
     </resources>
 </document>

@@ -13,7 +13,7 @@ class MeditationHowItWorksVC: BaseUIViewController
     @IBOutlet weak var btnPlay: UIButton!
     @IBOutlet weak var previewImageView: UIImageView!
     @IBOutlet weak var videoView: UIView!
-    
+    static let playerViewController = AVPlayerViewController()
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -39,6 +39,7 @@ class MeditationHowItWorksVC: BaseUIViewController
    
     @objc func handleSwipes(_ sender:UISwipeGestureRecognizer)
     {
+        MeditationHowItWorksVC.playerViewController.player?.pause()
         //        if (sender.direction == .left)
         //        {
         //             CommonFunctions.sharedInstance.PushToContrller(from: self, ToController: .MeditationExploree, Data: nil)
@@ -53,8 +54,9 @@ class MeditationHowItWorksVC: BaseUIViewController
     
     @IBAction func backAction(_ sender: Any)
     {
-        CommonFunctions.sharedInstance.popTocontroller(from: self)
-        
+       // CommonFunctions.sharedInstance.popTocontroller(from: self)
+           MeditationExplore.refrncPagerParent.moveback(self)
+         MeditationHowItWorksVC.playerViewController.player?.pause()
     }
     
     @IBAction func playVideo(_ sender: Any) {
@@ -63,7 +65,7 @@ class MeditationHowItWorksVC: BaseUIViewController
     }
     @IBAction func goToNext(_ sender: Any) {
         CommonFunctions.sharedInstance.PushToContrller(from: self, ToController: .MeditationExploree, Data: nil)
-        
+           MeditationHowItWorksVC.playerViewController.player?.pause()
     }
     
     private func playVideo()
@@ -75,13 +77,26 @@ class MeditationHowItWorksVC: BaseUIViewController
         }
         
         
-        let player = AVPlayer(url: URL(fileURLWithPath: path))
-        let playerController = AVPlayerViewController()
-        playerController.player = player
+       // let player = AVPlayer(url: URL(fileURLWithPath: path))
+      ///  let playerController = AVPlayerViewController()
+        //playerController.player = player
         Singleton.shared().isPlayerDismissed = true
         
-        self.present(playerController, animated: true, completion: nil)
-        player.play()
+      //  self.present(playerController, animated: true, completion: nil)
+      ///  player.play()
+        
+        
+        let player = AVPlayer(url:URL(fileURLWithPath: path))
+        MeditationHowItWorksVC.playerViewController.player = player
+        self.addChild(MeditationHowItWorksVC.playerViewController)
+        // Add your view Frame
+        MeditationHowItWorksVC.playerViewController.view.frame = self.videoView.bounds
+        // Add sub view in your view
+        self.videoView.addSubview(MeditationHowItWorksVC.playerViewController.view)
+    MeditationHowItWorksVC.playerViewController.player?.play()
+        
+        
+        
         
 //        present(playerController, animated: true)
 //        {

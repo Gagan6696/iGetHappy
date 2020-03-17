@@ -64,7 +64,7 @@ extension ChooseCareRecieverVC: UITableViewDelegate,UITableViewDataSource{
             
              //return CareRecieverData?.data?.count ?? 0
         }else{
-            self.tableView.setEmptyMessage("No careReciever found")
+            self.tableView.setEmptyMessage("No Care-Receiver was found")
             return 1
         }
   

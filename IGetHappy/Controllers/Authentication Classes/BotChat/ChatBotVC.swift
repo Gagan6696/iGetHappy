@@ -35,7 +35,14 @@ class ChatBotVC: BaseUIViewController {
         self.tableViewCareRecievers.separatorStyle = UITableViewCell.SeparatorStyle.none
 
         if selectedUserName != ""{
-            name = selectedUserName
+            if (selectedUserName == "Me"){
+                name = UserDefaults.standard.getFirstName()
+            }else{
+                 name = selectedUserName
+            }
+            
+           
+        
         }else{
             if let Name = UserDefaults.standard.getFirstName(){
                 name = Name
@@ -151,7 +158,7 @@ extension ChatBotVC:UITableViewDelegate,UITableViewDataSource{
             
             //return CareRecieverData?.data?.count ?? 0
         }else{
-            self.tableViewCareRecievers.setEmptyMessage("No careReciever found")
+            self.tableViewCareRecievers.setEmptyMessage("No Care-Receiver was found")
             return 0
         }
         

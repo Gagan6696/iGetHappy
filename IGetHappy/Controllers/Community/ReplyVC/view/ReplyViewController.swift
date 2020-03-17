@@ -314,7 +314,7 @@ extension ReplyViewController : UITableViewDelegate,UITableViewDataSource
         }
         else
         {
-            self.myTableView.setEmptyMessage("No Replies on this post found")
+           // self.myTableView.setEmptyMessage("No Replies on this post found")
             return 0
         }
      

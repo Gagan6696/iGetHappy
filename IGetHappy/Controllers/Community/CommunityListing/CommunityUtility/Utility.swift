@@ -98,15 +98,29 @@ class Utility: NSObject
         }
         
         if selectedData?.isShared == 1{
-             postTimeStamp.text = selectedData?.mood_track_time
+           
+            if(selectedData?.postTimeStamp != nil)
+            {
+                let localDate = Utility.UTCToLocal(UTCDateString: selectedData?.postTimeStamp ?? "", format: "yyyy-MM-dd'T'HH:mm:ss.SSSZ")
+                postTimeStamp.text = Utility.dateConvertToISOString(string: localDate)
+                
+            }
+            
+            
+            if let userName  = UserDefaults.standard.getFirstName(){
+                userTitle.text = userName
+            }
+            
             postDescription.text = selectedData?.post_description
         }else{
             if selectedData?.isMoodLog == 1{
                 
-                let localDate = Utility.UTCToLocal(UTCDateString: selectedData?.mood_track_time ?? "", format: "EEEE,ddMMM hh:mmaa")
+                if(selectedData?.mood_track_time != nil)
+                {
+                let localDate = Utility.UTCToLocalMoodLog(UTCDateString: selectedData?.mood_track_time ?? "", format: "EEEE,ddMMM hh:mmaa-yyyy")
                 postTimeStamp.text = localDate
                 
-                
+                }
                // postTimeStamp.text =  Utility.UTCToLocal(UTCDateString: selectedData?.mood_track_time ?? "", format: <#String#>)
                 // = selectedData?.mood_track_time
             }
@@ -120,15 +134,43 @@ class Utility: NSObject
     static func UTCToLocal(UTCDateString: String, format : String) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = format //Input Format
+          dateFormatter.locale = Locale.current
         dateFormatter.timeZone = NSTimeZone(name: "UTC") as TimeZone!
+        //UTCDateString + "-2020"
         let UTCDate = dateFormatter.date(from: UTCDateString)
-        
-        
+          dateFormatter.locale = Locale.current
         dateFormatter.dateFormat = format // Output Format
-        dateFormatter.timeZone = TimeZone.current
+        dateFormatter.timeZone =  TimeZone.autoupdatingCurrent
+        print("dateFormatter.timeZone",dateFormatter.timeZone.identifier)
         let UTCToCurrentFormat = dateFormatter.string(from: UTCDate!)
+        print("UTCToCurrentFormat",UTCToCurrentFormat)
         return UTCToCurrentFormat
     }
+    static func UTCToLocalMoodLog(UTCDateString: String, format : String) -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = format //Input Format
+        dateFormatter.locale = Locale.current
+        dateFormatter.timeZone = NSTimeZone(name: "UTC") as TimeZone!
+        
+       let utcDAte  = UTCDateString + "-\(Date().year)"
+        let UTCDate = dateFormatter.date(from: utcDAte)
+        dateFormatter.locale = Locale.current
+        dateFormatter.dateFormat = "EEEE,ddMMM hh:mmaa" // Output Format
+        dateFormatter.timeZone =  TimeZone.current
+        print("dateFormatter.timeZone",dateFormatter.timeZone.identifier)
+        let UTCToCurrentFormat: String?
+        if UTCDate != nil{
+             UTCToCurrentFormat = dateFormatter.string(from: UTCDate!)
+            
+        }else{
+            return ""
+        }
+        print("UTCToCurrentFormat",UTCToCurrentFormat)
+        return UTCToCurrentFormat ?? ""
+    }
+    
+    
+    
     
     static func dateFromISOStringForCreatedAt(string: Date) -> String?
     {
@@ -193,13 +235,16 @@ class Utility: NSObject
                                 //return "\(second) seconds ago"
                             }else{
                                 
-                                if let seconds  = componentCurrent.second{
-                                if(seconds ?? 0 <= 1){
-                                    return "\(seconds) second ago"
-                                }else{
-                                    return "\(seconds) seconds ago"
-                                }
-                                }
+//                                if let seconds  = componentCurrent.second{
+//                                if(seconds ?? 0 <= 1){
+//                                    return "\(seconds) second ago"
+//                                }else{
+//                                    return "\(seconds) seconds ago"
+//                                }
+//                                }
+                                
+                                return "few seconds ago"
+                                
                             }
                             //return "\(second) seconds ago"
                         }else{

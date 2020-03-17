@@ -37,34 +37,54 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9N-mY-7Ie">
-                            <rect key="frame" x="5" y="155.5" width="320" height="40"/>
+                            <rect key="frame" x="162" y="156" width="160" height="40"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="40" id="xkk-Iv-sWY"/>
+                                <constraint firstAttribute="height" constant="40" id="Z9U-hP-dH5"/>
                             </constraints>
                             <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
-                            <state key="normal" title="Okay" backgroundImage="globalHorizontalBG"/>
+                            <state key="normal" title="No" backgroundImage="globalHorizontalBG"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                     <integer key="value" value="5"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
                             <connections>
-                                <action selector="okayButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="N4g-jc-Hgq"/>
+                                <action selector="NoButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="N4g-jc-Hgq"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXe-G6-bZd">
+                            <rect key="frame" x="8" y="156" width="152" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="152" id="y85-R1-f5c"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
+                            <state key="normal" title="Yes" backgroundImage="globalHorizontalBG"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="YesButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="kJP-35-xvU"/>
                             </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="trailing" secondItem="C9N-mY-7Ie" secondAttribute="trailing" constant="5" id="4QM-Y7-MLu"/>
                         <constraint firstItem="IPi-ym-BIv" firstAttribute="leading" secondItem="W5k-Tp-LLD" secondAttribute="leading" constant="8" id="8ip-XZ-9ND"/>
+                        <constraint firstItem="UXe-G6-bZd" firstAttribute="width" secondItem="C9N-mY-7Ie" secondAttribute="width" constant="-8" id="Az3-Xz-HAK"/>
                         <constraint firstItem="ak0-kZ-ktO" firstAttribute="top" secondItem="W5k-Tp-LLD" secondAttribute="top" constant="15" id="GfH-FF-J9N"/>
-                        <constraint firstItem="C9N-mY-7Ie" firstAttribute="top" secondItem="IPi-ym-BIv" secondAttribute="bottom" constant="34" id="RVD-5y-cQz"/>
+                        <constraint firstItem="C9N-mY-7Ie" firstAttribute="top" secondItem="IPi-ym-BIv" secondAttribute="bottom" constant="34.5" id="H3n-Db-i9k"/>
+                        <constraint firstItem="UXe-G6-bZd" firstAttribute="centerY" secondItem="C9N-mY-7Ie" secondAttribute="centerY" id="JcY-b7-fS9"/>
+                        <constraint firstItem="UXe-G6-bZd" firstAttribute="height" secondItem="C9N-mY-7Ie" secondAttribute="height" id="JxV-F0-yix"/>
+                        <constraint firstAttribute="bottom" secondItem="C9N-mY-7Ie" secondAttribute="bottom" constant="4.5" id="T2s-gD-faT"/>
                         <constraint firstAttribute="trailing" secondItem="IPi-ym-BIv" secondAttribute="trailing" constant="5" id="VId-u2-VmA"/>
-                        <constraint firstItem="C9N-mY-7Ie" firstAttribute="leading" secondItem="W5k-Tp-LLD" secondAttribute="leading" constant="5" id="hJP-7F-zh7"/>
+                        <constraint firstAttribute="bottom" secondItem="UXe-G6-bZd" secondAttribute="bottom" constant="4.5" id="gRJ-y0-4c8"/>
+                        <constraint firstAttribute="trailing" secondItem="C9N-mY-7Ie" secondAttribute="trailing" constant="8" id="mFU-If-zX8"/>
                         <constraint firstItem="ak0-kZ-ktO" firstAttribute="centerX" secondItem="W5k-Tp-LLD" secondAttribute="centerX" multiplier="0.97" id="sGF-Ju-V9e"/>
                         <constraint firstItem="IPi-ym-BIv" firstAttribute="top" secondItem="ak0-kZ-ktO" secondAttribute="bottom" constant="28" id="w8K-bc-zRO"/>
+                        <constraint firstItem="UXe-G6-bZd" firstAttribute="leading" secondItem="W5k-Tp-LLD" secondAttribute="leading" constant="8" id="wTz-lD-wR6"/>
                         <constraint firstItem="IPi-ym-BIv" firstAttribute="centerY" secondItem="W5k-Tp-LLD" secondAttribute="centerY" id="x4d-SY-Nuz"/>
-                        <constraint firstAttribute="bottom" secondItem="C9N-mY-7Ie" secondAttribute="bottom" constant="5" id="xC8-OO-laZ"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -82,7 +102,8 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
                 <outlet property="alertMessageLabel" destination="IPi-ym-BIv" id="qnf-Bs-Rew"/>
-                <outlet property="okayButton" destination="C9N-mY-7Ie" id="SEN-2f-xZd"/>
+                <outlet property="noButton" destination="C9N-mY-7Ie" id="SEN-2f-xZd"/>
+                <outlet property="yesButton" destination="UXe-G6-bZd" id="Q9n-Wq-2g7"/>
             </connections>
             <point key="canvasLocation" x="132" y="148.87556221889056"/>
         </view>

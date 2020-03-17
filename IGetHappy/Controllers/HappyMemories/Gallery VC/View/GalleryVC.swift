@@ -1166,7 +1166,7 @@ extension GalleryVC:GalleryPresenterDelegate
                             dic.setValue(objData.user_id, forKey: coreDataKeys_HappyMemories.user_id)
                             dic.setValue(objData.location, forKey: coreDataKeys_HappyMemories.location)
                             dic.setValue(objData.post_upload_type, forKey: coreDataKeys_HappyMemories.type)
-                            dic.setValue(objData.post_upload_type, forKey: coreDataKeys_HappyMemories.name)
+                            dic.setValue(objData.desc, forKey: coreDataKeys_HappyMemories.name)
                             
                             self.arrData.add(dic)
                         }

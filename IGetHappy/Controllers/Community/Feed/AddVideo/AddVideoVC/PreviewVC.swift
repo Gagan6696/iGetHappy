@@ -121,9 +121,7 @@ class PreviewVC: BaseUIViewController {
             //self.showImageVideo()
             
         }
-        
-        
-        
+ 
         isEdit = SingletonPostModel.sharedInstance?.isEditingMode ?? false
         if(isEdit){
             self.txtField_Status.text = SingletonPostModel.sharedInstance?.postDescription

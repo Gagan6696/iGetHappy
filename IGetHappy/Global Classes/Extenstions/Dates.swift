@@ -33,7 +33,24 @@ extension Date {
         dateFormatter.dateFormat = "YYYY"
         return dateFormatter.string(from: self)
     }
-        
+    
+//    func isBetweeen(date date1: Date, andDate date2: Date) -> Bool {
+//        return date1.compare(self) == self.compare(date2)
+//        //return date1.compare(self).rawValue * self.compare(date2).rawValue >= 0
+//    }
+    
+    func isBetween(_ date1: Date, and date2: Date) -> Bool {
+        return (min(date1, date2) ... max(date1, date2)).contains(self)
+    }
+    
+    
+    func dateFor(timeStamp: String) -> NSDate
+    {
+        let formater = DateFormatter()
+        formater.dateFormat = "HH:mm:ss:SSS - MMM dd, yyyy"
+        return formater.date(from: timeStamp)! as NSDate
+    }
+    
     func startOf(_ dateComponent : Calendar.Component, date:Date) -> Date {
             var calendar = Calendar.current
             calendar.timeZone = TimeZone(secondsFromGMT: 0)!
@@ -45,3 +62,4 @@ extension Date {
  
     
 }
+

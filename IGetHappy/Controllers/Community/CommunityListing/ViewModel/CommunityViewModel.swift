@@ -44,6 +44,7 @@ class CommunityViewModel: NSObject
                         
                         //sharedPost
                         dict["isShared"] = resultData["isShared"]
+                        dict["post_created_at"] = resultData["post_created_at"]
                         dict["post_post_upload_type"] = resultData["post_post_upload_type"]
                         dict["profile_image"] = resultData["profile_image"]
                         

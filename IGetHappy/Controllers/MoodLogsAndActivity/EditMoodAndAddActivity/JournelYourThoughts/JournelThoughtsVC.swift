@@ -76,7 +76,11 @@ class JournelThoughtsVC: BaseUIViewController
             EditMoodActivityData.sharedInstance?.user_id = obj?.user_id
             EditMoodActivityData.sharedInstance?.privacy_option = obj?.privacy_option
             EditMoodActivityData.sharedInstance?.description = obj?.description
-            mediaUrl = obj?.post_upload_file ?? ""
+            if (obj?.post_upload_type == "TEXT"){
+                mediaUrl = ""
+            }else{
+                mediaUrl = obj?.post_upload_file ?? ""
+            }
             txtViewDescription.text = obj?.description
             lblPrivacy.text = obj?.privacy_option
             
@@ -91,17 +95,31 @@ class JournelThoughtsVC: BaseUIViewController
     override func viewWillAppear(_ animated: Bool)
     {
         super.viewWillAppear(animated)
+        let audioSession = AVAudioSession.sharedInstance()
+        do {
+            let session = AVAudioSession.sharedInstance()
+            try session.setCategory(.playAndRecord, mode: .default)
+            try session.setActive(true)
+            try audioSession.overrideOutputAudioPort(AVAudioSession.PortOverride.speaker)
+        } catch let error as NSError {
+            print(error.localizedDescription)
+            print("audioSession error: \(error.localizedDescription)")
+            return
+        }
         btnPlayAudio.tag = 0
         btnPlayAudio.setImage(UIImage(named: "addVideoPlay"), for: .normal)
      
+        
+    
         if(mediaUrl != "")
         {
+            
             if mediaUrl.contains(".wav")
             {
                 EditMoodActivityData.sharedInstance?.post_upload_type = "AUDIO"
                 self.viewVideo.isHidden  = true
                 self.viewAudio.isHidden  = false
-                 NotificationCenter.default.addObserver(self, selector: #selector(JournelThoughtsVC.finishedPlayingAudio(_:)), name: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: nil)
+                NotificationCenter.default.addObserver(self, selector: #selector(JournelThoughtsVC.finishedPlayingAudio(_:)), name: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: nil)
             }
             else
             {
@@ -134,7 +152,7 @@ class JournelThoughtsVC: BaseUIViewController
             self.playerLayer?.removeFromSuperlayer()
             self.playerLayer = nil
         }
-        
+        self.dismissKeyboard()
      NotificationCenter.default.removeObserver(self)
     }
     
@@ -272,7 +290,7 @@ class JournelThoughtsVC: BaseUIViewController
         mediaUrl = ""
         self.viewVideo.isHidden  = true
         self.viewAudio.isHidden  = true
-        EditMoodActivityData.sharedInstance?.post_upload_file = nil
+        EditMoodActivityData.sharedInstance?.post_upload_file = URL.init(string: " ")
         EditMoodActivityData.sharedInstance?.post_upload_type = "TEXT"
     }
     
@@ -285,7 +303,7 @@ class JournelThoughtsVC: BaseUIViewController
         mediaUrl = ""
         self.viewVideo.isHidden  = true
         self.viewAudio.isHidden  = true
-        EditMoodActivityData.sharedInstance?.post_upload_file = nil
+        EditMoodActivityData.sharedInstance?.post_upload_file = URL.init(string: " ")
         EditMoodActivityData.sharedInstance?.post_upload_type = "TEXT"
     }
     
@@ -295,7 +313,7 @@ class JournelThoughtsVC: BaseUIViewController
     
     @IBAction func actionMic(_ sender: Any) {
         //CommonFunctions.sharedInstance.PushToContrller(from: self, ToController: .AudioRecord, Data: nil)
-        
+        self.dismissKeyboard()
         Constants.isFromHappyMemories = true
         let navigation = UIStoryboard.init(name: "Auth", bundle: nil)
         // let pickerUserVC = navigation.viewControllers.first as! RecordAudioVC
@@ -311,7 +329,7 @@ class JournelThoughtsVC: BaseUIViewController
     @IBAction func actionCamera(_ sender: Any)
     {
         //CommonFunctions.sharedInstance.PushToContrller(from: self, ToController: .VideoRecord, Data: nil)
-        
+        self.dismissKeyboard()
         let navigation = UIStoryboard.init(name: "Auth", bundle: nil)
         // let pickerUserVC = navigation.viewControllers.first as! RecordAudioVC
         //  self.present(navigation, animated: true, completion: nil)
@@ -338,7 +356,7 @@ class JournelThoughtsVC: BaseUIViewController
             
             EditMoodActivityData.sharedInstance?.user_id = UserDefaults.standard.getUserId()
             EditMoodActivityData.sharedInstance?.privacy_option = self.lblPrivacy.text
-            EditMoodActivityData.sharedInstance?.description = ""
+            EditMoodActivityData.sharedInstance?.description = " "
             self.showLoader()
             self.presenter?.GetAllListCareReciever()
             
@@ -421,7 +439,6 @@ extension JournelThoughtsVC
                 
                 let player = AVPlayer(url: fileURL)
                 self.playerViewController.player = player
-                
                 self.addChild(self.playerViewController)
                 
                 // Add your view Frame
@@ -499,12 +516,24 @@ extension JournelThoughtsVC:JournelYourThoughtsDelegate{
     {
         self.hideLoader()
         
-        
         self.AlertMessageWithOkAction(titleStr: Constants.Global.ConstantStrings.KAppname, messageStr: "This thought has been saved to your Journal", Target: self) {
+            
+//            if let viewControllers = self.navigationController?.viewControllers {
+//                for viewController in viewControllers {
+//                    // some process
+//                    if viewController.isKind(of: CommunityListingViewController.self) {
+//                        guard let homeVC = self.navigationController?.getReference(to: CommunityListingViewController.self) else { return }
+//                        // Pass variables if needed.
+//                        self.navigationController?.popToViewController(homeVC, animated: true)
+//                    }
+//                    }
+//                }
+            //}
+            
             self.backTwo()
         }
-        
-        
+        EditMoodActivityData.sharedInstance?.Reinitilize()
+       
         //self.AlertWithNavigatonPurpose(message: data ?? "", navigationType: .pop, ViewController: .Home, rootViewController: .none, Data: nil)
         
         // self.showAlert(Message: data ?? "")
@@ -553,6 +582,7 @@ extension JournelThoughtsVC:UITextViewDelegate
         if txtViewDescription.text.isEmpty
         {
             txtViewDescription.text = "E.g. I have a job interview"
+          
         }
     }
     func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool

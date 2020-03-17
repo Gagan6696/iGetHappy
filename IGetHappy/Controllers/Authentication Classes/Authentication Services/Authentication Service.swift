@@ -133,12 +133,9 @@ class AuthenticationService:NSObject{
                 
                 
             }
-            
-            
-            
-            
-            
+
         }) { (networkError) in
+             completionnilResponse(Constants.Global.MessagesStrings.ServerError)
             print(networkError)
         }
         

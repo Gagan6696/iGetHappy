@@ -37,6 +37,7 @@ class Post {
     var post_liked_type : String?
     var post_liked : Int?
     var post_id_post : String?
+    var post_postTimeStamp : String?
     
     //Comment Array
     var commentDataArray = [CommentListModel]()
@@ -67,6 +68,7 @@ class Post {
     var post_moodTrackResId: String?
     var post_mood_track_time: String?
     var post_current_time: String?
+
     var share_mood_log_id:String?
     
     
@@ -117,6 +119,9 @@ class Post {
         
         
         //shared
+        if let post_postTimeStamp = postDetail["post_created_at"] as? String{
+            self.post_postTimeStamp = post_postTimeStamp
+        }
         if let isshared = postDetail["isShared"] as? Int{
             self.isShared = isshared
         }

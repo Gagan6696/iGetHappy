@@ -88,28 +88,72 @@ class MoodLogsVC: BaseUIViewController
         var moodID = ""
         let obj = MoodLogData?.data?[sender.tag]
         moodID = obj?._id ?? ""
-        
-        FTPopOverMenu.showForSender(sender: sender, with: ["Delete", "Edit", "Share"], done: { (selected) in
-            switch selected
+        let startDate = self.convertDateFormat(inputDate: obj?.updated_at ?? "")
+        let endDate = Calendar.current.date(
+            byAdding: .day,
+            value: 1,
+            to: startDate)
+        let checkRange = Date().isBetween(startDate, and: endDate ?? Date())
+        if(checkRange){
+            FTPopOverMenu.showForSender(sender: sender, with: ["Delete", "Edit", "Share"], done: { (selected) in
+                switch selected
+                {
+                case 0:
+                    self.presenterMoodLogs?.deleteMoodLogByMoodId(moodId: moodID)
+                    break
+                case 1:
+                    //Reminder
+                    self.EDIT_MOOD_LOG(position: sender.tag)
+                    break
+                case 2:
+                    self.presenterMoodLogs?.shareMoodLogByMoodId(moodId: moodID)
+                    break
+                default:
+                    break
+                }
+            })
             {
-            case 0:
-                self.presenterMoodLogs?.deleteMoodLogByMoodId(moodId: moodID)
-                break
-            case 1:
-                //Reminder
-                self.EDIT_MOOD_LOG(position: sender.tag)
-                break
-            case 2:
-                self.presenterMoodLogs?.shareMoodLogByMoodId(moodId: moodID)
-                break
-            default:
-                break
+                
             }
-        })
-        {
-            
+        }else{
+            FTPopOverMenu.showForSender(sender: sender, with: ["Delete", "Share"], done: { (selected) in
+                switch selected
+                {
+                case 0:
+                    self.presenterMoodLogs?.deleteMoodLogByMoodId(moodId: moodID)
+                    break
+                case 1:
+                    //Reminder
+                    self.presenterMoodLogs?.shareMoodLogByMoodId(moodId: moodID)
+                    break
+                default:
+                    break
+                }
+            })
+            {
+                
+            }
         }
+        
+        
     }
+    
+    
+    func convertDateFormat(inputDate: String) -> Date {
+        
+        let olDateFormatter = DateFormatter()
+        olDateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+        let convertDateFormatter = DateFormatter()
+        convertDateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+        let newDate = convertDateFormatter.date(from: inputDate)
+       // if newDate != nil{
+            return newDate!
+       // }else{
+            //return Date()
+       // }
+        
+    }
+    
     private func getMoodLogs()
     {
         if self.checkInternetConnection()
@@ -238,7 +282,7 @@ extension MoodLogsVC:UITableViewDelegate,UITableViewDataSource
             cell.lblMoodDetailDesc.text = obj?.description
             cell.lblMoodDesc.text = obj?.eventsActivity
             
-            let localDate = Utility.UTCToLocal(UTCDateString: obj?.mood_track_time ?? "", format: "EEEE,ddMMM hh:mmaa")
+            let localDate = Utility.UTCToLocalMoodLog(UTCDateString: obj?.mood_track_time ?? "", format: "EEEE,ddMMM hh:mmaa-yyyy")
             
            cell.lblMoodpostDate.text = localDate
            // cell.lblMoodpostDate.text = self.dateFromISOStringForMoodlogs(string: obj?.updated_at ?? "")
@@ -278,7 +322,7 @@ extension MoodLogsVC:UITableViewDelegate,UITableViewDataSource
             //cell.lblMoodpostDate.text = obj?.updated_at ?? ""
            // cell.lblPrivacy.text = obj?.privacy_option
             
-             let localDate = Utility.UTCToLocal(UTCDateString: obj?.mood_track_time ?? "", format: "EEEE,ddMMM hh:mmaa")
+            let localDate = Utility.UTCToLocalMoodLog(UTCDateString: obj?.mood_track_time ?? "", format: "EEEE,ddMMM hh:mmaa-yyyy")
             cell.lblMoodpostDate.text = localDate
             //cell.lblMoodpostDate.text = self.dateFromISOStringForMoodlogs(string: obj?.updated_at ?? "")
             //cell.lblMoodpostDate.text = Utility.dateConvertToISOString(string: obj?.updated_at ?? "")
@@ -319,7 +363,7 @@ extension MoodLogsVC:UITableViewDelegate,UITableViewDataSource
             // cell.lblMoodpostDate.text = Utility.dateConvertToISOString(string: obj?.updated_at ?? "")
             //cell.lblMoodpostDate.text = obj?.updated_at ?? ""
           //  cell.lblPrivacy.text = obj?.privacy_option
-            let localDate = Utility.UTCToLocal(UTCDateString: obj?.mood_track_time ?? "", format: "EEEE,ddMMM hh:mmaa")
+            let localDate = Utility.UTCToLocalMoodLog(UTCDateString: obj?.mood_track_time ?? "", format: "EEEE,ddMMM hh:mmaa-yyyy")
             
             
             cell.lblMoodpostDate.text = localDate

@@ -230,6 +230,7 @@ extension PostWithAudioCell :UITableViewDataSource,UITableViewDelegate{
         //cell.btnReply.addTarget(self, action: "actionReply", for: UIControl.Event.touchUpInside)
         cell.imgView.layer.cornerRadius = cell.imgView.frame.height/2
         cell.lblProfileName.text = data?.username
+        Utility.loadImage(onImageView: cell.imgView, imageURLString: data?.profileImage ?? "", placeHolder: "community_listing_user")
         cell.delegate = self
         cell.layoutIfNeeded()
         cell.lblComment.text = data?.comment

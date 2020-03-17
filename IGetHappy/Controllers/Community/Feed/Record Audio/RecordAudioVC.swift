@@ -58,12 +58,10 @@ class RecordAudioVC: BaseUIViewController {
     //MARK:- Properties
     var handleView = UIView()
     //var recordButton = RecordButton()
-    //    var timeLabel = UILabel()
-    // var sampleRate =  AVAudioSession.sharedInstance().sampleRate
+    //var timeLabel = UILabel()
+     var sampleRate =  AVAudioSession.sharedInstance().sampleRate
     //var audioView = AudioVisualizerView()
-    
     let audioEngine = AVAudioEngine()
-    
     private var renderTs: Double = 0
     private var recordingTs: Double = 0
     private var silenceTs: Double = 0
@@ -84,11 +82,12 @@ class RecordAudioVC: BaseUIViewController {
     var currentTimeInterval:CMTime?
     var currentPlayerTime:Float?
     var playerItem:AVPlayerItem?
-    
+    var inputNode: AVAudioInputNode?
     var selectedPostVentsAudio : AllVentsModelDetail?
     var isEditVentsAudio  = Bool()
     override func viewDidLoad() {
         super.viewDidLoad()
+        inputNode = self.audioEngine.inputNode
         isEdit = selectedPostData?.first?.isEditingMode ?? false
         DispatchQueue.main.async {
             let audioSession = AVAudioSession.sharedInstance()
@@ -102,12 +101,8 @@ class RecordAudioVC: BaseUIViewController {
                 print("audioSession error: \(error.localizedDescription)")
                 return
             }
-            //            do {
-            //
-            //            } catch let error as NSError {
-            //
-            //            }
-            self.settings = [AVFormatIDKey: kAudioFormatLinearPCM, AVLinearPCMBitDepthKey: 16, AVLinearPCMIsFloatKey: true, AVNumberOfChannelsKey: 1, AVSampleRateKey :Float64(44100)] as [String : Any]
+            print("self.sampleRate",self.sampleRate)
+            self.settings = [AVFormatIDKey: kAudioFormatLinearPCM, AVLinearPCMBitDepthKey: 16, AVLinearPCMIsFloatKey: true, AVNumberOfChannelsKey: 1, AVSampleRateKey :Float64(48000)] as [String : Any]
             
             self.btnPlay!.setImage(UIImage(named: "addVideoPlay"), for: .normal)
             self.setupHandelView()
@@ -227,7 +222,6 @@ class RecordAudioVC: BaseUIViewController {
             
         }
         
-        
     }
   
     override func viewWillAppear(_ animated: Bool) {
@@ -266,12 +260,19 @@ class RecordAudioVC: BaseUIViewController {
     }
     
     @IBAction func btnDeleteAudio(_ sender: Any) {
+        if countdownTimer != nil{
+            self.countdownTimer.invalidate()
+        }
+        totalTime = 10
+        self.audioEngine.stop()
+        self.audioFile = nil
+        self.audioEngine.inputNode.removeTap(onBus: 0)
         if player != nil {
             player.pause()
             player = nil
            
         }
-        self.timeLabel.isHidden = false
+        self.timeLabel.isHidden = true
         self.audioView.isHidden = true
         self.recordButton.isHidden = true
         self.btnPlay.isHidden = true
@@ -290,7 +291,10 @@ class RecordAudioVC: BaseUIViewController {
     @IBAction func actionBack(_ sender: Any) {
        // stopRecording()
          // self.audioEngine.stop()
-        countdownTimer.invalidate()
+        if countdownTimer != nil{
+            countdownTimer.invalidate()
+        }
+        
         self.audioFile = nil
         self.audioEngine.inputNode.removeTap(onBus: 0)
         self.audioEngine.stop()
@@ -298,7 +302,23 @@ class RecordAudioVC: BaseUIViewController {
 //            
 //            self.dismiss(animated: false, completion: nil)
 //        }
+                    do {
+                        DispatchQueue.main.async {
+                              self.audioEngine.stop()
+                            self.updateUI(.stopped)
         
+        
+                        }
+                        try AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
+                        try AVAudioSession.sharedInstance().setActive(false)
+                    } catch  let error as NSError {
+                        player.pause()
+                        btnPlay!.setImage(UIImage(named: "addVideoPlay"), for: .normal)
+                        print("Audio error")
+        
+                        print(error.localizedDescription)
+                        return
+                    }
         CommonFunctions.sharedInstance.popTocontroller(from: self)
     }
     
@@ -654,32 +674,31 @@ class RecordAudioVC: BaseUIViewController {
         self.present(alert, animated: true, completion: nil)
     }
     
-    // MARK:- Recording
+    
     private func startRecording() {
-        startTimer()
-//        if let d = self.delegate {
-//            d.didStartRecording()
-//        }
+         startTimer()
+        if let d = self.delegate {
+            d.didStartRecording()
+        }
         
         self.recordingTs = NSDate().timeIntervalSince1970
         self.silenceTs = 0
         
-        do {
-            let session = AVAudioSession.sharedInstance()
-            try session.setCategory(.playAndRecord, mode: .default)
-            try session.setActive(true)
-        } catch let error as NSError {
-            print(error.localizedDescription)
+//        do {
+//            let session = AVAudioSession.sharedInstance()
+//            try session.setCategory(.playAndRecord, mode: .default)
+//            try session.setActive(true)
+//        } catch let error as NSError {
+//            print(error.localizedDescription)
+//            return
+//        }
+//
+       
+        guard let format = self.format() else {
             return
         }
         
-        let engine = AVAudioEngine()
-        let input = engine.inputNode
-        let bus = 0
-        let inputFormat = input.outputFormat(forBus: 0)
-        let inputNode = self.audioEngine.inputNode
-        
-        inputNode.installTap(onBus: bus, bufferSize: 1024, format: inputFormat) { (buffer, time) in
+        inputNode?.installTap(onBus: 0, bufferSize: 1024, format: format) { (buffer, time) in
             let level: Float = -50
             let length: UInt32 = 1024
             buffer.frameLength = length
@@ -713,21 +732,34 @@ class RecordAudioVC: BaseUIViewController {
                     self.audioView.setNeedsDisplay()
                 }
             }
-            if self.audioFile == nil {
-                self.audioFile = self.createAudioRecordFile()
-            }
             
-            if let f = self.audioFile {
-                do {
-                    try f.write(from: buffer)
-                } catch let error as NSError {
-                    print(error.localizedDescription)
+            var write = false
+            if silent {
+                if ts - self.silenceTs < 0.25 && self.silenceTs > 0 {
+                    write = true
+                } else {
+                    self.audioFile = nil
+                    if let d = self.delegate {
+                       // d.didAddRecording()
+                    }
                 }
-                
+            } else {
+                write = true
+                self.silenceTs = ts
+            }
+            if write {
+                if self.audioFile == nil {
+                    self.audioFile = self.createAudioRecordFile()
+                }
+                if let f = self.audioFile {
+                    do {
+                        try f.write(from: buffer)
+                    } catch let error as NSError {
+                        print(error.localizedDescription)
+                    }
+                }
             }
         }
-        
-        
         do {
             self.audioEngine.prepare()
             try self.audioEngine.start()
@@ -737,6 +769,90 @@ class RecordAudioVC: BaseUIViewController {
         }
         self.updateUI(.recording)
     }
+
+//    // MARK:- Recording
+//    private func startRecording() {
+//        startTimer()
+////        if let d = self.delegate {
+////            d.didStartRecording()
+////        }
+//
+//        self.recordingTs = NSDate().timeIntervalSince1970
+//        self.silenceTs = 0
+//
+//        do {
+//            let session = AVAudioSession.sharedInstance()
+//            try session.setCategory(.playAndRecord, mode: .default)
+//            try session.setActive(true)
+//        } catch let error as NSError {
+//            print(error.localizedDescription)
+//            return
+//        }
+//
+//        let engine = AVAudioEngine()
+//        let input = engine.inputNode
+//        let bus = 0
+//        let inputFormat = input.outputFormat(forBus: 0)
+//        let inputNode = self.audioEngine.inputNode
+//
+//        inputNode.installTap(onBus: bus, bufferSize: 1024, format: inputFormat) { (buffer, time) in
+//            let level: Float = -50
+//            let length: UInt32 = 1024
+//            buffer.frameLength = length
+//            let channels = UnsafeBufferPointer(start: buffer.floatChannelData, count: Int(buffer.format.channelCount))
+//            var value: Float = 0
+//            vDSP_meamgv(channels[0], 1, &value, vDSP_Length(length))
+//            var average: Float = ((value == 0) ? -100 : 20.0 * log10f(value))
+//            if average > 0 {
+//                average = 0
+//            } else if average < -100 {
+//                average = -100
+//            }
+//            let silent = average < level
+//            let ts = NSDate().timeIntervalSince1970
+//            if ts - self.renderTs > 0.1 {
+//                let floats = UnsafeBufferPointer(start: channels[0], count: Int(buffer.frameLength))
+//                let frame = floats.map({ (f) -> Int in
+//                    return Int(f * Float(Int16.max))
+//                })
+//                DispatchQueue.main.async {
+//                    let seconds = (ts - self.recordingTs)
+//                    self.timeLabel.text = seconds.toTimeString
+//                    self.renderTs = ts
+//                    let len = self.audioView.waveforms.count
+//                    for i in 0 ..< len {
+//                        let idx = ((frame.count - 1) * i) / len
+//                        let f: Float = sqrt(1.5 * abs(Float(frame[idx])) / Float(Int16.max))
+//                        self.audioView.waveforms[i] = min(49, Int(f * 50))
+//                    }
+//                    self.audioView.active = !silent
+//                    self.audioView.setNeedsDisplay()
+//                }
+//            }
+//            if self.audioFile == nil {
+//                self.audioFile = self.createAudioRecordFile()
+//            }
+//
+//            if let f = self.audioFile {
+//                do {
+//                    try f.write(from: buffer)
+//                } catch let error as NSError {
+//                    print(error.localizedDescription)
+//                }
+//
+//            }
+//        }
+//
+//
+//        do {
+//            self.audioEngine.prepare()
+//            try self.audioEngine.start()
+//        } catch let error as NSError {
+//            print(error.localizedDescription)
+//            return
+//        }
+//        self.updateUI(.recording)
+//    }
     
     
     func fileSize(forURL url: Any) -> Double {
@@ -765,34 +881,44 @@ class RecordAudioVC: BaseUIViewController {
         //self.viewPlayMusic.isHidden = false
         self.audioView.isHidden = true
         self.forEditBgView.isHidden = false
-        self.forEditCross.isHidden = true
+       // self.forEditCross.isHidden = true
+        
+        if isEdit || isEditVentsAudio{
+               self.forEditCross.isHidden = false
+        }else{
+               self.forEditCross.isHidden = true
+        }
         
 //        if let d = self.delegate {
 //            self.recordButton.isHidden = true
 //            d.didFinishRecording()
 //        }
-        
+        self.audioEngine.stop()
         self.audioFile = nil
         self.audioEngine.inputNode.removeTap(onBus: 0)
-        DispatchQueue.main.async {
-        self.audioEngine.stop()
-        }
-        delay(2.0) {
-            do {
-                DispatchQueue.main.async {
-                    //  self.audioEngine.stop()
-                    self.updateUI(.stopped)
-                    
-                    
-                }
-                try AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
-                try AVAudioSession.sharedInstance().setActive(false)
-            } catch  let error as NSError {
-                print(error.localizedDescription)
-                return
-            }
+       // DispatchQueue.main.async {
+ 
+        //}
+         self.updateUI(.stopped)
+//            do {
+//                DispatchQueue.main.async {
+//                      self.audioEngine.stop()
+//                    self.updateUI(.stopped)
+//                    
+//                    
+//                }
+//                try AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
+//                try AVAudioSession.sharedInstance().setActive(false)
+//            } catch  let error as NSError {
+//                player.pause()
+//                btnPlay!.setImage(UIImage(named: "addVideoPlay"), for: .normal)
+//                print("Audio error")
+//                
+//                print(error.localizedDescription)
+//                return
+//            }
 
-        }
+       
       
     }
     

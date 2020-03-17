@@ -830,6 +830,12 @@ extension HomeVC:HomeDelegate{
         
         if (push_to_edit_mood == true)
         {
+           // if (message == "Mood tracked successfully!")
+           // {
+           self.showAlert(alertMessage: message ?? "Mood Updated successfully!")
+            //self.view.makeToast(message ?? "Mood tracked successfully!")
+                
+           // }
             CommonFunctions.sharedInstance.PushToContrller(from:self, ToController: .AddActivityWithMood, Data: nil)
         }
     }
@@ -839,8 +845,30 @@ extension HomeVC:HomeDelegate{
         self.hideLoader()
         
         let currrentEmojiDetail = self.emojiArray[ExtensionModel.shared.Emoji_CurrentPage]
-        let date = self.dateFromISOStringForMoodlogs(string: "\(Date())") ?? ""
-        self.presenter?.setMoodFromServer(moodType: currrentEmojiDetail.title, dateTime: date, iconName: currrentEmojiDetail.description)
+        //let date = self.dateFromISOStringForMoodlogs(string: "\(Date())") ?? ""
+        var dateToSend = String()
+        
+        var setDateForSort = String()
+        
+        if (self.lblSetDayEmoji.text == "Today")
+        {
+            
+            dateToSend = self.dateFromISOStringForMoodlogs(string: "\(Date())") ?? ""
+            setDateForSort = self.dateFromISOStringToSort(string: "\(Date())") ?? ""
+            Singleton.shared().currentDate_for_offline_emojy = dateToSend
+            Singleton.shared().currentDate_for_offline_emojy_sorting = setDateForSort
+        }
+        else
+        {
+            
+            dateToSend = self.dateFromISOStringPastMoodLog(string: pastDate ) ?? ""
+            setDateForSort = self.dateFromISOStringToSort(string: pastDate) ?? ""
+            Singleton.shared().currentDate_for_offline_emojy = dateToSend
+            Singleton.shared().currentDate_for_offline_emojy_sorting = setDateForSort
+        }
+        
+        
+        self.presenter?.setMoodFromServer(moodType: currrentEmojiDetail.title, dateTime: dateToSend, iconName: currrentEmojiDetail.description)
         if (checkInternetConnection() == true)
         {
             presenter?.get_emoji_offline()//on it
@@ -1224,7 +1252,7 @@ extension HomeVC: UICollectionViewDataSource,UICollectionViewDelegate
                 Singleton.shared().currentDate_for_offline_emojy_sorting = setDateForSort
             }
             
-            //self.dateFromISOStringPastMoodLog(string: <#T##String#>)
+           
             
             
             print("dateToSend",dateToSend)

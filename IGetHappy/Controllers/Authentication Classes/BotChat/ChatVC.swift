@@ -242,7 +242,7 @@ extension ChatVC{
         self.collectionView.delegate = self
         self.collectionView.reloadData()
         self.collectionView.layoutIfNeeded()
-        title = "Lets Chat"
+        title = "Let’s chat"
         dataSource = self
         delegate = self
         

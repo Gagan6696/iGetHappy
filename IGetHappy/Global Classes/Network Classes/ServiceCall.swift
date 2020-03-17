@@ -379,7 +379,7 @@ class ServiceCall  {
             "Content-type": "multipart/form-data","Authorization": "Bearer \(accessTokken)","Accept" : "application/json"
         ]
         let configuration = URLSessionConfiguration.default
-        configuration.timeoutIntervalForRequest = 1200
+        configuration.timeoutIntervalForRequest = 30
         let alamoManager = Alamofire.SessionManager(configuration: configuration)
         
         print(parameters)
@@ -538,7 +538,7 @@ class ServiceCall  {
             randomFileName = ""
             mediaType = ""
         }
-        Alamofire.upload(multipartFormData: { (multipartFormData) in
+        AlamofireManager.shared.upload(multipartFormData: { (multipartFormData) in
             
             
             if(imageDataArr.count > 0)
@@ -650,7 +650,7 @@ class ServiceCall  {
             randomFileName = ""
             mediaType = ""
         }
-        Alamofire.upload(multipartFormData: { (multipartFormData) in
+        AlamofireManager.shared.upload(multipartFormData: { (multipartFormData) in
             
             
             if(imageDataArr.count > 0)
@@ -758,7 +758,9 @@ class ServiceCall  {
             randomFileName = ""
             mediaType = ""
         }
-        Alamofire.upload(multipartFormData: { (multipartFormData) in
+        
+        
+        AlamofireManager.shared.upload(multipartFormData: { (multipartFormData) in
             
             
             if(mediaType == "Image")
@@ -874,7 +876,7 @@ class ServiceCall  {
             randomFileName = ""
             mediaType = ""
         }
-        Alamofire.upload(multipartFormData: { (multipartFormData) in
+        AlamofireManager.shared.upload(multipartFormData: { (multipartFormData) in
             
             
             if(mediaType == "Image"){

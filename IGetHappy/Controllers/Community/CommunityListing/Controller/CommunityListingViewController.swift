@@ -45,7 +45,6 @@ class CommunityListingViewController: BaseUIViewController,UISearchBarDelegate,F
     var fullArray = [Post?]()
     var postListingArray_filter = [Post?]()
     var refresher:UIRefreshControl!
-    
     var limit = 20
     var totalEnteries = 0
     
@@ -53,6 +52,7 @@ class CommunityListingViewController: BaseUIViewController,UISearchBarDelegate,F
     lazy var mmPlayerLayer: MMPlayerLayer = {
         let playerLayer = MMPlayerLayer()
         playerLayer.cacheType = .memory(count: 0)
+   
         playerLayer.coverFitType = .fitToPlayerView
         playerLayer.videoGravity = AVLayerVideoGravity.resizeAspect
         playerLayer.replace(cover: CoverLayerView.instantiateFromNib())
@@ -68,18 +68,25 @@ class CommunityListingViewController: BaseUIViewController,UISearchBarDelegate,F
         self.pullToRefresh()
         self.initializeAudioPlayer()
         self.filterView.isHidden = true
-        
         self.filterViewheight.constant = 0
-        
         self.calenderView.layer.cornerRadius = 10
         self.calenderView.layer.masksToBounds = true
         self.showPopUpSelectDate.layer.cornerRadius = 10
         self.showPopUpSelectDate.layer.masksToBounds = true
-        
         PostWithAudioCell.ref_community = self
         let tap = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(_:)))
         viewBg.addGestureRecognizer(tap)
-       
+        let audioSession = AVAudioSession.sharedInstance()
+        do {
+            let session = AVAudioSession.sharedInstance()
+            try session.setCategory(.playAndRecord, mode: .default)
+            try session.setActive(true)
+            try audioSession.overrideOutputAudioPort(AVAudioSession.PortOverride.speaker)
+        } catch let error as NSError {
+            print(error.localizedDescription)
+            print("audioSession error: \(error.localizedDescription)")
+            return
+        }
     }
     
     
@@ -108,8 +115,11 @@ class CommunityListingViewController: BaseUIViewController,UISearchBarDelegate,F
         self.btnStartDate.tag = 0
      //   self.btnDate.tag = 0
         
+        btnDate.tag = 0
         
         if (btnDate.tag == 0){
+            startDate = nil
+            endDate = nil
             self.btnDate.setImage(UIImage(named:"checkedEmpty"), for: UIControl.State.normal)
             self.btnFrndList.setImage(UIImage(named:"checkedEmpty"), for: UIControl.State.normal)
         }else{
@@ -131,6 +141,17 @@ class CommunityListingViewController: BaseUIViewController,UISearchBarDelegate,F
     override func viewWillAppear(_ animated: Bool)
     {
         super.viewWillAppear(true)
+        let audioSession = AVAudioSession.sharedInstance()
+        do {
+            let session = AVAudioSession.sharedInstance()
+            try session.setCategory(.playAndRecord, mode: .default)
+            try session.setActive(true)
+            try audioSession.overrideOutputAudioPort(AVAudioSession.PortOverride.speaker)
+        } catch let error as NSError {
+            print(error.localizedDescription)
+            print("audioSession error: \(error.localizedDescription)")
+            return
+        }
         self.cancel_search()
         mySearchBar.placeholder = "Search by username"
         mySearchBar.setPlaceholderTextColorTo(color: .black)
@@ -253,7 +274,7 @@ class CommunityListingViewController: BaseUIViewController,UISearchBarDelegate,F
         formatter.dateFormat = "yyyy-MM-dd"
         let convertedDate = formatter.string(from: date)
         formatter.timeZone = TimeZone.autoupdatingCurrent
-      let finalDate = formatter.date(from: convertedDate)
+        let finalDate = formatter.date(from: convertedDate)
         selectedDate = finalDate!.toLocalTime()
         //date.timeIntervalSinceNow =
         print(finalDate)

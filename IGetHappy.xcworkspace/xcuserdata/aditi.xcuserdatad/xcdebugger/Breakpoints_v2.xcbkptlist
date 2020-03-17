@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/CommunityListing/Extention/CommunityExtention.swift"
-            timestampString = "604244414.290537"
+            timestampString = "605708737.469117"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "476"
@@ -218,7 +218,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.601112"
+            timestampString = "605168026.857317"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "127"
@@ -234,7 +234,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.6011781"
+            timestampString = "605168026.857841"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "131"
@@ -250,7 +250,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.601236"
+            timestampString = "605168026.85823"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "136"
@@ -266,7 +266,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.601294"
+            timestampString = "605168026.858564"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "140"
@@ -282,7 +282,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.601351"
+            timestampString = "605168026.8588949"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "152"
@@ -298,7 +298,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.601408"
+            timestampString = "605168026.85922"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "172"
@@ -314,7 +314,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.601465"
+            timestampString = "605168026.8595459"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "160"
@@ -330,13 +330,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.601522"
+            timestampString = "605168026.859869"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "197"
             endingLineNumber = "197"
-            landmarkName = "actionCross(_:)"
-            landmarkType = "7">
+            landmarkName = "PreviewVC"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -346,7 +346,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.601578"
+            timestampString = "605168026.860193"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "235"
@@ -362,7 +362,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.601635"
+            timestampString = "605168026.860521"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "243"
@@ -378,7 +378,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.601692"
+            timestampString = "605168026.860845"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "257"
@@ -394,7 +394,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.601748"
+            timestampString = "605168026.861168"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "263"
@@ -410,7 +410,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.601805"
+            timestampString = "605168026.861488"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "268"
@@ -426,7 +426,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.601862"
+            timestampString = "605168026.861811"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "292"
@@ -442,13 +442,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.601918"
+            timestampString = "605168026.86213"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "352"
             endingLineNumber = "352"
             landmarkName = "play_video(url:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in IGetHappy.PreviewVC.play_video(url: Foundation.URL) -&gt; ()"
+                  moduleName = "IGetHappy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
+                  timestampString = "605708238.135759"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "352"
+                  endingLineNumber = "352"
+                  offsetFromSymbolStart = "448">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; () in IGetHappy.PreviewVC.play_video(url: Foundation.URL) -&gt; ()"
+                  moduleName = "IGetHappy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
+                  timestampString = "605708238.139876"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "353"
+                  endingLineNumber = "353"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -458,7 +490,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.601975"
+            timestampString = "605168026.8624409"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "397"
@@ -506,11 +538,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelThoughtsVC.swift"
-            timestampString = "603279196.602146"
+            timestampString = "605708737.470317"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "465"
-            endingLineNumber = "465"
+            startingLineNumber = "482"
+            endingLineNumber = "482"
             landmarkName = "pass(data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -585,118 +617,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.998508"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "444"
-            endingLineNumber = "444"
-            landmarkName = "CREATE_REMINDERS()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.998602"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "488"
-            endingLineNumber = "488"
-            landmarkName = "CREATE_REMINDERS_RECURRING(recurringType:dayCount:alertTime:prsnlMsg:isOnGoing:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.9986711"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "497"
-            endingLineNumber = "497"
-            landmarkName = "CREATE_REMINDERS_RECURRING(recurringType:dayCount:alertTime:prsnlMsg:isOnGoing:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.998734"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "492"
-            endingLineNumber = "492"
-            landmarkName = "CREATE_REMINDERS_RECURRING(recurringType:dayCount:alertTime:prsnlMsg:isOnGoing:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.998796"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "508"
-            endingLineNumber = "508"
-            landmarkName = "CREATE_REMINDERS_RECURRING_with_START_END_DATE(recurringType:dayCount:alertTime:prsnlMsg:isOnGoing:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.998857"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "517"
-            endingLineNumber = "517"
-            landmarkName = "CREATE_REMINDERS_RECURRING_with_START_END_DATE(recurringType:dayCount:alertTime:prsnlMsg:isOnGoing:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.9989181"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "533"
-            endingLineNumber = "533"
-            landmarkName = "CREATE_REMINDERS_RECURRING_with_START_END_DATE(recurringType:dayCount:alertTime:prsnlMsg:isOnGoing:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "IGetHappy/Global Classes/CoreData Model/DatabaseModel_Reminders.swift"
             timestampString = "602412327.506981"
             startingColumnNumber = "9223372036854775807"
@@ -761,108 +681,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.999051"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "setup_ongoing_Calender()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.999112"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "setup_calender()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.999172"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "293"
-            endingLineNumber = "293"
-            landmarkName = "showDatePicker()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/SetRemindersVC.swift"
-            timestampString = "603350058.8944581"
+            timestampString = "605708737.470668"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128"
-            landmarkName = "viewDidLayoutSubviews()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/SetRemindersVC.swift"
-            timestampString = "603350058.8946609"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
-            landmarkName = "viewDidLayoutSubviews()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/SetRemindersVC.swift"
-            timestampString = "603350058.894727"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "138"
-            endingLineNumber = "138"
-            landmarkName = "viewWillAppear(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/SetRemindersVC.swift"
-            timestampString = "603350058.894786"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "441"
-            endingLineNumber = "441"
+            startingLineNumber = "448"
+            endingLineNumber = "448"
             landmarkName = "collectionView(_:didSelectItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -874,7 +698,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.999303"
+            timestampString = "605686088.569729"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "699"
@@ -890,11 +714,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/SetRemindersVC.swift"
-            timestampString = "603350058.894883"
+            timestampString = "605708737.470798"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "440"
-            endingLineNumber = "440"
+            startingLineNumber = "447"
+            endingLineNumber = "447"
             landmarkName = "collectionView(_:didSelectItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -906,7 +730,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.999383"
+            timestampString = "605686088.569828"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "731"
@@ -922,55 +746,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.999442"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "313"
-            endingLineNumber = "313"
-            landmarkName = "showDatePicker_recurring_alertTime()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.999501"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "269"
-            endingLineNumber = "269"
-            landmarkName = "datesRange(from:to:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.99956"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "minimumDate(for:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.9996181"
+            timestampString = "605686088.569948"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "84"
@@ -986,7 +762,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.999675"
+            timestampString = "605686088.570007"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "98"
@@ -1002,7 +778,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.999733"
+            timestampString = "605686088.570066"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "105"
@@ -1018,7 +794,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.999791"
+            timestampString = "605686088.570123"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "109"
@@ -1034,7 +810,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.999849"
+            timestampString = "605686088.570182"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "117"
@@ -1050,7 +826,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.999907"
+            timestampString = "605686088.57024"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "125"
@@ -1066,7 +842,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313949.999964"
+            timestampString = "605686088.570299"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "128"
@@ -1082,7 +858,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313950.0000221"
+            timestampString = "605686088.570358"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "130"
@@ -1098,7 +874,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313950.000079"
+            timestampString = "605686088.570417"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "135"
@@ -1114,11 +890,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/SetRemindersVC.swift"
-            timestampString = "603350058.895402"
+            timestampString = "605708737.4711699"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "198"
-            endingLineNumber = "198"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
             landmarkName = "ACTION_ADD(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1130,92 +906,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/SetRemindersVC.swift"
-            timestampString = "603350058.895463"
+            timestampString = "605708737.471266"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "202"
-            endingLineNumber = "202"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
             landmarkName = "ACTION_ADD(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313950.000174"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "433"
-            endingLineNumber = "433"
-            landmarkName = "HANDLE_ADD_REMINDER_ACTION()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313950.000234"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "429"
-            endingLineNumber = "429"
-            landmarkName = "HANDLE_ADD_REMINDER_ACTION()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313950.000291"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "425"
-            endingLineNumber = "425"
-            landmarkName = "HANDLE_ADD_REMINDER_ACTION()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313950.000348"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "469"
-            endingLineNumber = "469"
-            landmarkName = "CREATE_REMINDERS()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313950.000406"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "476"
-            endingLineNumber = "476"
-            landmarkName = "CREATE_REMINDERS()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1254,11 +950,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313950.000501"
+            timestampString = "605686088.570609"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "592"
@@ -1274,55 +970,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313950.000559"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "561"
-            endingLineNumber = "561"
-            landmarkName = "SAVE_DAILY_REMINDER_IN_DATABASE(tbID:idArray:reminderType:totalDates:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313950.000617"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "setup_calender()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313950.000675"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "260"
-            endingLineNumber = "260"
-            landmarkName = "datesRange(from:to:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/Set Reminders/Controller/ReminderExtension.swift"
-            timestampString = "604313950.0007319"
+            timestampString = "605686088.570671"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "104"
@@ -1385,8 +1033,8 @@
                   symbolName = "static IGetHappy.DatabaseModel_Reminders.get_offline_saved_Reminders(success: (Swift.Array&lt;IGetHappy.EditReminderMapper&gt;) -&gt; (), failure: (Swift.String) -&gt; ()) -&gt; ()"
                   moduleName = "IGetHappy"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Data/IGETHAPPY/Igethappy(Client%20release%20backup%20final)/IgetHappyGit/IGetHappy/Global%20Classes/CoreData%20Model/DatabaseModel_Reminders.swift"
-                  timestampString = "604323022.030705"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/Global%20Classes/CoreData%20Model/DatabaseModel_Reminders.swift"
+                  timestampString = "605708238.340305"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "137"
@@ -1400,8 +1048,8 @@
                   symbolName = "closure #1 (Swift.Array&lt;IGetHappy.EditReminderMapper&gt;) -&gt; () in static IGetHappy.DatabaseModel_Reminders.get_offline_saved_Reminders(success: (Swift.Array&lt;IGetHappy.EditReminderMapper&gt;) -&gt; (), failure: (Swift.String) -&gt; ()) -&gt; ()"
                   moduleName = "IGetHappy"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Data/IGETHAPPY/Igethappy(Client%20release%20backup%20final)/IgetHappyGit/IGetHappy/Global%20Classes/CoreData%20Model/DatabaseModel_Reminders.swift"
-                  timestampString = "604323022.033067"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/Global%20Classes/CoreData%20Model/DatabaseModel_Reminders.swift"
+                  timestampString = "605708238.343466"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "138"
@@ -1482,7 +1130,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/CommunityListing/Extention/CommunityExtention.swift"
-            timestampString = "604244414.294945"
+            timestampString = "605708737.471665"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "738"
@@ -1546,7 +1194,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/AppDelegate Classes/AppDelegate.swift"
-            timestampString = "603982126.345082"
+            timestampString = "605687520.366104"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "73"
@@ -1561,8 +1209,8 @@
                   symbolName = "default argument 2 of IGetHappy.AppDelegate.application(_: __C.UIApplication, open: Foundation.URL, options: Swift.Dictionary&lt;__C.UIApplicationOpenURLOptionsKey, Any&gt;) -&gt; Swift.Bool"
                   moduleName = "IGetHappy"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Data/IGETHAPPY/Igethappy(Client%20release%20backup%20final)/IgetHappyGit/IGetHappy/AppDelegate%20Classes/AppDelegate.swift"
-                  timestampString = "604323022.0782"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/AppDelegate%20Classes/AppDelegate.swift"
+                  timestampString = "605708238.401843"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "73"
@@ -1576,8 +1224,8 @@
                   symbolName = "IGetHappy.AppDelegate.application(_: __C.UIApplication, open: Foundation.URL, options: Swift.Dictionary&lt;__C.UIApplicationOpenURLOptionsKey, Any&gt;) -&gt; Swift.Bool"
                   moduleName = "IGetHappy"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Data/IGETHAPPY/Igethappy(Client%20release%20backup%20final)/IgetHappyGit/IGetHappy/AppDelegate%20Classes/AppDelegate.swift"
-                  timestampString = "604323022.0805039"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/AppDelegate%20Classes/AppDelegate.swift"
+                  timestampString = "605708238.405072"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "76"
@@ -1594,7 +1242,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/AppDelegate Classes/AppDelegate.swift"
-            timestampString = "603982126.345139"
+            timestampString = "605687520.366176"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "80"
@@ -1610,7 +1258,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/AppDelegate Classes/AppDelegate.swift"
-            timestampString = "603982126.345196"
+            timestampString = "605687520.366243"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "84"
@@ -1626,7 +1274,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/AppDelegate Classes/AppDelegate.swift"
-            timestampString = "603982126.345252"
+            timestampString = "605687520.366309"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "85"
@@ -1642,7 +1290,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/CommunityListing/Extention/CommunityExtention.swift"
-            timestampString = "604244414.295184"
+            timestampString = "605708737.471944"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "234"
@@ -1690,7 +1338,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Global Classes/Common Functions/CommonFunctions.swift"
-            timestampString = "603367432.977829"
+            timestampString = "605687520.366497"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
@@ -1706,7 +1354,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.605175"
+            timestampString = "605168026.86408"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "187"
@@ -1722,13 +1370,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.605233"
+            timestampString = "605168026.864435"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "247"
             endingLineNumber = "247"
             landmarkName = "ActionBtnUploadStory(_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IGetHappy.PreviewVC.ActionBtnUploadStory(__C.UIButton) -&gt; ()"
+                  moduleName = "IGetHappy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
+                  timestampString = "605708238.459406"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "247"
+                  endingLineNumber = "247"
+                  offsetFromSymbolStart = "1716">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in IGetHappy.PreviewVC.ActionBtnUploadStory(__C.UIButton) -&gt; ()"
+                  moduleName = "IGetHappy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
+                  timestampString = "605708238.462734"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "248"
+                  endingLineNumber = "248"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1738,7 +1418,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.6052901"
+            timestampString = "605168026.864763"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "294"
@@ -1754,7 +1434,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.605346"
+            timestampString = "605168026.8650939"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "365"
@@ -1770,7 +1450,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.605402"
+            timestampString = "605168026.865674"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "386"
@@ -1786,7 +1466,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/AddVideo/AddVideoVC/PreviewVC.swift"
-            timestampString = "603279196.605458"
+            timestampString = "605168026.866323"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "384"
@@ -1802,7 +1482,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/CommunityListing/CollectionViewCell/PostWithAudioCell.swift"
-            timestampString = "603807020.835517"
+            timestampString = "605445933.585302"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "173"
@@ -1818,7 +1498,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/CommunityListing/Extention/CommunityExtention.swift"
-            timestampString = "604244414.295506"
+            timestampString = "605708737.472325"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "470"
@@ -1834,7 +1514,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/CommunityListing/CollectionViewCell/PostWithAudioCell.swift"
-            timestampString = "603807020.835704"
+            timestampString = "605445933.585624"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "166"
@@ -1850,7 +1530,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/CommunityListing/CollectionViewCell/PostWithAudioCell.swift"
-            timestampString = "603807020.835814"
+            timestampString = "605445933.585688"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "129"
@@ -1866,7 +1546,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/CommunityListing/CollectionViewCell/MoodLogsCommunity/MoodPostWithAudioCell.swift"
-            timestampString = "603106027.640627"
+            timestampString = "605445933.585752"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "176"
@@ -1882,7 +1562,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/CommunityListing/CollectionViewCell/MoodLogsCommunity/MoodPostWithAudioCell.swift"
-            timestampString = "603106027.640691"
+            timestampString = "605445933.5859309"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "179"
@@ -1898,7 +1578,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/CommunityListing/CollectionViewCell/MoodLogsCommunity/MoodPostWithAudioCell.swift"
-            timestampString = "603106027.6407501"
+            timestampString = "605445933.58599"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "139"
@@ -1914,7 +1594,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/CommunityListing/Extention/CommunityExtention.swift"
-            timestampString = "604244414.295702"
+            timestampString = "605708737.472556"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "715"
@@ -1930,7 +1610,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/CommunityListing/Extention/CommunityExtention.swift"
-            timestampString = "604244414.295764"
+            timestampString = "605708737.472631"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "706"
@@ -1945,8 +1625,8 @@
                   symbolName = "closure #1 (Swift.String) -&gt; () in IGetHappy.CommunityListingViewController.shareButtonTapped(selectedIndex: Swift.Int) -&gt; ()"
                   moduleName = "IGetHappy"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Data/IGETHAPPY/Igethappy(Client%20release%20backup%20final)/IgetHappyGit/IGetHappy/Controllers/Community/CommunityListing/Extention/CommunityExtention.swift"
-                  timestampString = "604323022.186834"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/Controllers/Community/CommunityListing/Extention/CommunityExtention.swift"
+                  timestampString = "605708238.5424761"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "706"
@@ -1960,8 +1640,8 @@
                   symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.String&gt;, Swift.String) -&gt; () in closure #1 (Swift.String) -&gt; () in IGetHappy.CommunityListingViewController.shareButtonTapped(selectedIndex: Swift.Int) -&gt; ()"
                   moduleName = "IGetHappy"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Data/IGETHAPPY/Igethappy(Client%20release%20backup%20final)/IgetHappyGit/IGetHappy/Controllers/Community/CommunityListing/Extention/CommunityExtention.swift"
-                  timestampString = "604323022.1891381"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/Controllers/Community/CommunityListing/Extention/CommunityExtention.swift"
+                  timestampString = "605708238.545467"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "708"
@@ -1978,7 +1658,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/CommunityListing/Extention/CommunityExtention.swift"
-            timestampString = "604244414.2958241"
+            timestampString = "605708737.4727041"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "714"
@@ -1994,7 +1674,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/CommunityListing/Extention/CommunityExtention.swift"
-            timestampString = "604244414.295885"
+            timestampString = "605708737.472775"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "748"
@@ -2010,11 +1690,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelThoughtsVC.swift"
-            timestampString = "603279196.605957"
+            timestampString = "605708737.4728481"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
             landmarkName = "viewWillAppear(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2090,11 +1770,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Home/Controller/HomeVC.swift"
-            timestampString = "604244414.296244"
+            timestampString = "605705519.563166"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1221"
-            endingLineNumber = "1221"
+            startingLineNumber = "1249"
+            endingLineNumber = "1249"
             landmarkName = "collectionView(_:didSelectItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2106,11 +1786,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelThoughtsVC.swift"
-            timestampString = "603279196.6062061"
+            timestampString = "605708737.473079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "370"
-            endingLineNumber = "370"
+            startingLineNumber = "388"
+            endingLineNumber = "388"
             landmarkName = "audioPlayerDidFinishPlaying(_:successfully:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2122,11 +1802,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelThoughtsVC.swift"
-            timestampString = "603279196.606276"
+            timestampString = "605708737.4731489"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "374"
-            endingLineNumber = "374"
+            startingLineNumber = "392"
+            endingLineNumber = "392"
             landmarkName = "finishedPlaying(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2138,11 +1818,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelThoughtsVC.swift"
-            timestampString = "603279196.6063451"
+            timestampString = "605708737.473215"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "363"
-            endingLineNumber = "363"
+            startingLineNumber = "381"
+            endingLineNumber = "381"
             landmarkName = "playerItemDidPlayToEndTime()"
             landmarkType = "7">
          </BreakpointContent>
@@ -2154,11 +1834,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelThoughtsVC.swift"
-            timestampString = "603279196.606413"
+            timestampString = "605708737.473281"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "220"
-            endingLineNumber = "220"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
             landmarkName = "playAudio(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2170,11 +1850,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelThoughtsVC.swift"
-            timestampString = "603279196.606482"
+            timestampString = "605708737.4733469"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "360"
-            endingLineNumber = "360"
+            startingLineNumber = "378"
+            endingLineNumber = "378"
             landmarkName = "playerItemDidPlayToEndTime()"
             landmarkType = "7">
          </BreakpointContent>
@@ -2186,11 +1866,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelThoughtsVC.swift"
-            timestampString = "603279196.6065511"
+            timestampString = "605708737.473413"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "223"
-            endingLineNumber = "223"
+            startingLineNumber = "241"
+            endingLineNumber = "241"
             landmarkName = "playAudio(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2202,11 +1882,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelThoughtsVC.swift"
-            timestampString = "603279196.606617"
+            timestampString = "605708737.473479"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "218"
-            endingLineNumber = "218"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
             landmarkName = "playAudio(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2218,7 +1898,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/AddActivityWithMoodVC.swift"
-            timestampString = "603984274.597205"
+            timestampString = "605708737.473549"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
@@ -2234,7 +1914,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/AddActivityWithMoodVC.swift"
-            timestampString = "603984274.597307"
+            timestampString = "605708737.473619"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "141"
@@ -2250,11 +1930,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/AddActivityWithMoodVC.swift"
-            timestampString = "603984274.5973901"
+            timestampString = "605708737.473688"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "163"
-            endingLineNumber = "163"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
             landmarkName = "viewWillAppear(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2266,11 +1946,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/AddActivityWithMoodVC.swift"
-            timestampString = "603984274.597472"
+            timestampString = "605708737.473755"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "264"
-            endingLineNumber = "264"
+            startingLineNumber = "276"
+            endingLineNumber = "276"
             landmarkName = "actnCarereciever(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2282,11 +1962,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/AddActivityWithMoodVC.swift"
-            timestampString = "603984274.597556"
+            timestampString = "605708737.473822"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
             landmarkName = "viewWillAppear(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2298,7 +1978,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/AddActivityWithMoodVC.swift"
-            timestampString = "603984274.597639"
+            timestampString = "605708737.473887"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "135"
@@ -2314,7 +1994,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/AddActivityWithMoodVC.swift"
-            timestampString = "603984274.597729"
+            timestampString = "605708737.473954"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "40"
@@ -2330,7 +2010,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/AddActivityWithMoodVC.swift"
-            timestampString = "603984274.597815"
+            timestampString = "605708737.474022"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "42"
@@ -2410,7 +2090,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/MeditationWecomeVC.swift"
-            timestampString = "603301659.385709"
+            timestampString = "605692981.311986"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "70"
@@ -2442,7 +2122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Authentication Classes/BotChat/ChatVC.swift"
-            timestampString = "603350058.899767"
+            timestampString = "605016116.9054821"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "53"
@@ -2458,11 +2138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Authentication Classes/BotChat/ChatBotVC.swift"
-            timestampString = "604244414.2980061"
+            timestampString = "605016116.9055459"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "216"
-            endingLineNumber = "216"
+            startingLineNumber = "223"
+            endingLineNumber = "223"
             landmarkName = "ChatBotDidSucceeed(data:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2474,11 +2154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Authentication Classes/BotChat/ChatBotVC.swift"
-            timestampString = "604244414.2984869"
+            timestampString = "605016116.9056081"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "137"
-            endingLineNumber = "137"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2490,7 +2170,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Authentication Classes/BotChat/ChatVC.swift"
-            timestampString = "603350058.902241"
+            timestampString = "605016116.905666"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
@@ -2506,7 +2186,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Authentication Classes/BotChat/ChatVC.swift"
-            timestampString = "603350058.902305"
+            timestampString = "605016116.90572"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
@@ -2522,7 +2202,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Authentication Classes/BotChat/ChatVC.swift"
-            timestampString = "603350058.902366"
+            timestampString = "605016116.905775"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
@@ -2538,11 +2218,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Authentication Classes/BotChat/ChatBotVC.swift"
-            timestampString = "604244414.299016"
+            timestampString = "605016116.905831"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "188"
-            endingLineNumber = "188"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2554,11 +2234,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Authentication Classes/BotChat/ChatBotVC.swift"
-            timestampString = "604244414.299409"
+            timestampString = "605016116.905888"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "183"
-            endingLineNumber = "183"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2570,13 +2250,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/Record Audio/RecordAudioVC.swift"
-            timestampString = "604330138.562764"
+            timestampString = "605687520.371526"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "864"
-            endingLineNumber = "864"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "990"
+            endingLineNumber = "990"
+            landmarkName = "handleInterruption(notification:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -2586,13 +2266,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/Record Audio/RecordAudioVC.swift"
-            timestampString = "604330138.563465"
+            timestampString = "605687520.371592"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "804"
-            endingLineNumber = "804"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "930"
+            endingLineNumber = "930"
+            landmarkName = "checkPermissionAndRecord()"
+            landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
@@ -2601,12 +2281,12 @@
                   symbolName = "closure #1 (Swift.Bool) -&gt; () in IGetHappy.RecordAudioVC.(checkPermissionAndRecord in _6E92CF6A0CE8A3F4ADABEFC20133773A)() -&gt; ()"
                   moduleName = "IGetHappy"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Data/IGETHAPPY/Igethappy(Client%20release%20backup%20final)/IgetHappyGit/IGetHappy/Controllers/Community/Feed/Record%20Audio/RecordAudioVC.swift"
-                  timestampString = "604323022.3800581"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/Controllers/Community/Feed/Record%20Audio/RecordAudioVC.swift"
+                  timestampString = "605708238.906396"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "775"
-                  endingLineNumber = "775"
+                  startingLineNumber = "930"
+                  endingLineNumber = "930"
                   offsetFromSymbolStart = "36">
                </Location>
                <Location
@@ -2616,12 +2296,12 @@
                   symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Bool) -&gt; () in IGetHappy.RecordAudioVC.(checkPermissionAndRecord in _6E92CF6A0CE8A3F4ADABEFC20133773A)() -&gt; ()"
                   moduleName = "IGetHappy"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Data/IGETHAPPY/Igethappy(Client%20release%20backup%20final)/IgetHappyGit/IGetHappy/Controllers/Community/Feed/Record%20Audio/RecordAudioVC.swift"
-                  timestampString = "604323022.382368"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/Controllers/Community/Feed/Record%20Audio/RecordAudioVC.swift"
+                  timestampString = "605708238.910585"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "776"
-                  endingLineNumber = "776"
+                  startingLineNumber = "931"
+                  endingLineNumber = "931"
                   offsetFromSymbolStart = "36">
                </Location>
             </Locations>
@@ -2634,11 +2314,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/CommunityListing/Controller/CommunityListingViewController.swift"
-            timestampString = "603960011.819139"
+            timestampString = "605708737.474514"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "250"
-            endingLineNumber = "250"
+            startingLineNumber = "271"
+            endingLineNumber = "271"
             landmarkName = "calendar(_:didSelect:at:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2650,11 +2330,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Home/Controller/HomeVC.swift"
-            timestampString = "604244414.302007"
+            timestampString = "605705519.564311"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1199"
-            endingLineNumber = "1199"
+            startingLineNumber = "1227"
+            endingLineNumber = "1227"
             landmarkName = "collectionView(_:didSelectItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2666,11 +2346,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Home/Controller/HomeVC.swift"
-            timestampString = "604244414.303702"
+            timestampString = "605705519.5643719"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1200"
-            endingLineNumber = "1200"
+            startingLineNumber = "1228"
+            endingLineNumber = "1228"
             landmarkName = "collectionView(_:didSelectItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2682,11 +2362,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Home/Controller/HomeVC.swift"
-            timestampString = "604244414.305028"
+            timestampString = "605705519.564431"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1201"
-            endingLineNumber = "1201"
+            startingLineNumber = "1229"
+            endingLineNumber = "1229"
             landmarkName = "collectionView(_:didSelectItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2698,7 +2378,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/AppDelegate Classes/AppDelegate.swift"
-            timestampString = "603982126.3535219"
+            timestampString = "605687520.372072"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
@@ -2714,7 +2394,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Home/Controller/HomeVC.swift"
-            timestampString = "604244414.306156"
+            timestampString = "605705519.564517"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "97"
@@ -2730,11 +2410,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/AddActivityWithMoodVC.swift"
-            timestampString = "603984274.6048909"
+            timestampString = "605708737.474708"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "308"
-            endingLineNumber = "308"
+            startingLineNumber = "320"
+            endingLineNumber = "320"
             landmarkName = "setTrackingDetails()"
             landmarkType = "7">
          </BreakpointContent>
@@ -2761,8 +2441,8 @@
                   symbolName = "IGetHappy.SelectMusicViewController.openPhoneMusicListButtonAction(Any) -&gt; ()"
                   moduleName = "IGetHappy"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Data/IGETHAPPY/Igethappy(Client%20release%20backup%20final)/IgetHappyGit/IGetHappy/Controllers/Breathe/SelectMusicViewController.swift"
-                  timestampString = "604323022.421381"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/Controllers/Breathe/SelectMusicViewController.swift"
+                  timestampString = "605708238.9810489"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "26"
@@ -2776,8 +2456,8 @@
                   symbolName = "closure #1 () -&gt; () in IGetHappy.SelectMusicViewController.openPhoneMusicListButtonAction(Any) -&gt; ()"
                   moduleName = "IGetHappy"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/Data/IGETHAPPY/Igethappy(Client%20release%20backup%20final)/IgetHappyGit/IGetHappy/Controllers/Breathe/SelectMusicViewController.swift"
-                  timestampString = "604323022.423697"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/Controllers/Breathe/SelectMusicViewController.swift"
+                  timestampString = "605708238.9845901"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "27"
@@ -2810,13 +2490,1249 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IGetHappy/Controllers/Community/Feed/Record Audio/RecordAudioVC.swift"
-            timestampString = "604330138.564092"
+            timestampString = "605687520.372377"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "396"
-            endingLineNumber = "396"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "416"
+            endingLineNumber = "416"
+            landmarkName = "endTimer()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Global Classes/Api Url Strings/UrlStrings.swift"
+            timestampString = "605445933.587701"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "UrlStrings"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Meditation/Meditation Pager/MeditationPagerVC.swift"
+            timestampString = "605692845.952659"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "moveback(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Meditation/Meditation Pager/MeditationPagerVC.swift"
+            timestampString = "605692845.952723"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "didTapGoToLeft()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelThoughtsVC.swift"
+            timestampString = "605708737.474934"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "348"
+            endingLineNumber = "348"
+            landmarkName = "actionPost(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelThoughtsVC.swift"
+            timestampString = "605708737.4750021"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "369"
+            endingLineNumber = "369"
+            landmarkName = "actionPost(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelThoughtsVC.swift"
+            timestampString = "605708737.475077"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "359"
+            endingLineNumber = "359"
+            landmarkName = "actionPost(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelYourThoughtsPresenter.swift"
+            timestampString = "605708737.4751461"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "GetAllListCareReciever()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelYourThoughtsPresenter.swift"
+            timestampString = "605708737.475209"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "GetAllListCareReciever()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelYourThoughtsPresenter.swift"
+            timestampString = "605708737.475269"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "GetAllListCareReciever()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IGetHappy.JournelYourThoughtsPresenter.GetAllListCareReciever() -&gt; ()"
+                  moduleName = "IGetHappy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelYourThoughtsPresenter.swift"
+                  timestampString = "605708239.11085"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "9348">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Dictionary&lt;Swift.String, Any&gt;, Alamofire.DataResponse&lt;Any&gt;) -&gt; () in IGetHappy.JournelYourThoughtsPresenter.GetAllListCareReciever() -&gt; ()"
+                  moduleName = "IGetHappy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelYourThoughtsPresenter.swift"
+                  timestampString = "605708239.114233"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelYourThoughtsPresenter.swift"
+            timestampString = "605708737.4753309"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "GetAllListCareReciever()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IGetHappy.JournelYourThoughtsPresenter.GetAllListCareReciever() -&gt; ()"
+                  moduleName = "IGetHappy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelYourThoughtsPresenter.swift"
+                  timestampString = "605708239.128214"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "9348">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Dictionary&lt;Swift.String, Any&gt;, Alamofire.DataResponse&lt;Any&gt;) -&gt; () in IGetHappy.JournelYourThoughtsPresenter.GetAllListCareReciever() -&gt; ()"
+                  moduleName = "IGetHappy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelYourThoughtsPresenter.swift"
+                  timestampString = "605708239.13169"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelYourThoughtsPresenter.swift"
+            timestampString = "605708737.475391"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "GetAllListCareReciever()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelYourThoughtsPresenter.swift"
+            timestampString = "605708737.475451"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "GetAllListCareReciever()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelYourThoughtsPresenter.swift"
+            timestampString = "605708737.47551"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "GetAllListCareReciever()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IGetHappy.JournelYourThoughtsPresenter.GetAllListCareReciever() -&gt; ()"
+                  moduleName = "IGetHappy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelYourThoughtsPresenter.swift"
+                  timestampString = "605708239.159526"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "9992">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Dictionary&lt;Swift.String, Any&gt;, Alamofire.DataResponse&lt;Any&gt;) -&gt; () in IGetHappy.JournelYourThoughtsPresenter.GetAllListCareReciever() -&gt; ()"
+                  moduleName = "IGetHappy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Data/IGETHAPPY/GIT-IGETHAPPY%202/IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelYourThoughtsPresenter.swift"
+                  timestampString = "605708239.162881"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Home/Presenter/HomePresenter.swift"
+            timestampString = "605600627.530741"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "setMoodFromServer(moodType:dateTime:iconName:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Home/Controller/HomeVC.swift"
+            timestampString = "605705519.5653811"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "845"
+            endingLineNumber = "845"
+            landmarkName = "AIDidSucceeed(message:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/Feed/Record Audio/RecordAudioVC.swift"
+            timestampString = "605687520.374504"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "880"
+            endingLineNumber = "880"
+            landmarkName = "stopRecording()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/Feed/Record Audio/RecordAudioVC.swift"
+            timestampString = "605687520.3745641"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "624"
+            endingLineNumber = "624"
+            landmarkName = "handleRecording(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/Feed/Record Audio/RecordAudioVC.swift"
+            timestampString = "605687520.374621"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "629"
+            endingLineNumber = "629"
+            landmarkName = "handleRecording(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/Feed/Record Audio/RecordAudioVC.swift"
+            timestampString = "605687520.374678"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "941"
+            endingLineNumber = "941"
+            landmarkName = "checkPermissionAndRecord()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/Feed/Record Audio/RecordAudioVC.swift"
+            timestampString = "605687520.374736"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "770"
+            endingLineNumber = "770"
+            landmarkName = "startRecording()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/CollectionViewCell/MySharedPosts.swift"
+            timestampString = "605708737.475755"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "item"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/Extention/CommunityExtention.swift"
+            timestampString = "605708737.4764301"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "318"
+            endingLineNumber = "318"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/Extention/CommunityExtention.swift"
+            timestampString = "605708737.476503"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/Extention/CommunityExtention.swift"
+            timestampString = "605708737.4765691"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/Extention/CommunityExtention.swift"
+            timestampString = "605708737.476634"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/ViewModel/CommunityViewModel.swift"
+            timestampString = "605687520.375121"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "getAllPostService(params:controller:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/Extention/CommunityExtention.swift"
+            timestampString = "605708737.476734"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/MoodLogsAndActivity/MoodLogsAndStatisticsTab/MoodLogs/Controller/MoodLogsVC.swift"
+            timestampString = "605708737.4768029"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "actionDropDown(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/MoodLogsAndActivity/MoodLogsAndStatisticsTab/MoodLogs/Controller/MoodLogsVC.swift"
+            timestampString = "605708737.476867"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "actionDropDown(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/MoodLogsAndActivity/MoodLogsAndStatisticsTab/MoodLogs/Controller/MoodLogsVC.swift"
+            timestampString = "605708737.476926"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "actionDropDown(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Home/Controller/HomeVC.swift"
+            timestampString = "605705519.5660959"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "889"
+            endingLineNumber = "889"
+            landmarkName = "HomeDidFailed(message:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Home/Controller/HomeVC.swift"
+            timestampString = "605705519.566154"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "884"
+            endingLineNumber = "884"
+            landmarkName = "HomeDidFailed(message:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Home/Controller/HomeVC.swift"
+            timestampString = "605705519.566211"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "831"
+            endingLineNumber = "831"
+            landmarkName = "HomeDidSucceeed(message:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Home/Controller/HomeVC.swift"
+            timestampString = "605705519.566267"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "805"
+            endingLineNumber = "805"
+            landmarkName = "HomeDidSucceeed(message:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Home/Presenter/HomePresenter.swift"
+            timestampString = "605630868.09659"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "514"
+            endingLineNumber = "514"
+            landmarkName = "CREATE_ONLY_EMOJI_MOOD_EVENT(moodName:icName:dateTime:sendTimeForSort:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Home/Presenter/HomePresenter.swift"
+            timestampString = "605630875.991748"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "527"
+            endingLineNumber = "527"
+            landmarkName = "CREATE_ONLY_EMOJI_MOOD_EVENT(moodName:icName:dateTime:sendTimeForSort:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/CommunityUtility/Utility.swift"
+            timestampString = "605708737.477147"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "UTCToLocal(UTCDateString:format:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/CollectionViewCell/MoodLogsCommunity/ShareMoodPost.swift"
+            timestampString = "605692465.51521"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "item"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/CollectionViewCell/MoodLogsCommunity/ShareMoodPost.swift"
+            timestampString = "605692465.515269"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "item"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/AddActivityWithMoodVC.swift"
+            timestampString = "605708737.477284"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/MeditationHowItWorksVC.swift"
+            timestampString = "605708737.477357"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "handleSwipes(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/MeditationHowItWorksVC.swift"
+            timestampString = "605708737.477421"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "handleSwipes(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/MeditationHowItWorksVC.swift"
+            timestampString = "605708737.477481"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/MeditationHowItWorksVC.swift"
+            timestampString = "605708737.47754"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "backAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/MeditationHowItWorksVC.swift"
+            timestampString = "605708737.4776011"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "goToNext(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/MeditationHowItWorksVC.swift"
+            timestampString = "605708737.4776599"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Meditation/Meditation Pager/MeditationPagerVC.swift"
+            timestampString = "605692845.954042"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "handle_pager(index:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Meditation/Meditation Pager/MeditationPagerVC.swift"
+            timestampString = "605692845.954101"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "moveNext(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Meditation/Meditation Pager/MeditationPagerVC.swift"
+            timestampString = "605692845.954159"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "didTapGoToRight()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Meditation/Meditation Pager/MeditationPagerVC.swift"
+            timestampString = "605692845.954217"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "handle_pager(index:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Meditation/MeditationCategoriesExplore/Controllers/MeditationSetGoalVC.swift"
+            timestampString = "605708737.477827"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "actionBack(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Meditation/Meditation Pager/MeditationPagerVC.swift"
+            timestampString = "605692845.954761"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "didMoveToPage(_:index:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/JournelYourThoughts/JournelThoughtsVC.swift"
+            timestampString = "605708737.477924"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/Controller/CommunityListingViewController.swift"
+            timestampString = "605708737.477995"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "handleTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/Controller/CommunityListingViewController.swift"
+            timestampString = "605708737.4780639"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "handleTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/Controller/CommunityListingViewController.swift"
+            timestampString = "605708737.47813"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "handleTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/Controller/CommunityListingViewController.swift"
+            timestampString = "605708737.478192"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "handleTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/CommunityUtility/Utility.swift"
+            timestampString = "605708737.4782569"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
+            landmarkName = "dateConvertToISOString(string:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/CommunityUtility/Utility.swift"
+            timestampString = "605708737.478334"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
+            landmarkName = "dateConvertToISOString(string:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/CommunityUtility/Utility.swift"
+            timestampString = "605708737.478407"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "254"
+            endingLineNumber = "254"
+            landmarkName = "dateConvertToISOString(string:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/CommunityUtility/Utility.swift"
+            timestampString = "605708737.478478"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "255"
+            endingLineNumber = "255"
+            landmarkName = "dateConvertToISOString(string:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/CommunityUtility/Utility.swift"
+            timestampString = "605708737.478551"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "264"
+            endingLineNumber = "264"
+            landmarkName = "dateConvertToISOString(string:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/CommunityUtility/Utility.swift"
+            timestampString = "605708737.478621"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "266"
+            endingLineNumber = "266"
+            landmarkName = "dateConvertToISOString(string:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/CommunityUtility/Utility.swift"
+            timestampString = "605708737.47869"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
+            landmarkName = "dateConvertToISOString(string:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/CommunityUtility/Utility.swift"
+            timestampString = "605708737.478761"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
+            landmarkName = "dateConvertToISOString(string:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/CommunityUtility/Utility.swift"
+            timestampString = "605708737.47883"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "228"
+            endingLineNumber = "228"
+            landmarkName = "dateConvertToISOString(string:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/CommunityUtility/Utility.swift"
+            timestampString = "605708737.4789"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
+            landmarkName = "dateConvertToISOString(string:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/CommunityUtility/Utility.swift"
+            timestampString = "605708737.4789701"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
+            landmarkName = "dateConvertToISOString(string:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/Community/CommunityListing/CommunityUtility/Utility.swift"
+            timestampString = "605708737.479053"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "UTCToLocal(UTCDateString:format:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IGetHappy/Controllers/MoodLogsAndActivity/EditMoodAndAddActivity/AddActivityWithMoodVC.swift"
+            timestampString = "605708737.4791321"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

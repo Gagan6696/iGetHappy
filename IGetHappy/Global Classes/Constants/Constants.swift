@@ -126,6 +126,7 @@ class Constants: NSObject
             static  let KEmptyPhoneNumber = "Please enter your Phone Number"
             static  let KMinLengthPhoneNumber = "Your phone number should be 10 character long."
             static  let KEmptyEmail = "Please enter Email ID"
+            static  let KEmptyRelation = "Please select relationship with Care-Reciever"
             static  let KWrongEmail = "please enter valid Email ID"
             static  let KMinLengthEmail = "Your email length is minimum."
             static  let KInvalidPhoneNum = "Please enter valid Phone Number."

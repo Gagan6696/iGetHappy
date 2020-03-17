@@ -282,7 +282,7 @@ extension SetRemindersVC : FSCalendarDelegate,FSCalendarDataSource,UNUserNotific
         //Formate Date
         datePicker.datePickerMode = .time
         // datePicker.maximumDate = Date()
-         datePicker.minimumDate = Date()
+         //datePicker.minimumDate = Date()
        // datePicker.minuteInterval = 5
         
         //ToolBar

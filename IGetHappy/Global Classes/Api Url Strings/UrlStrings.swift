@@ -12,7 +12,7 @@ class UrlStrings: NSObject
     
     static let sharedInstance = UrlStrings()
     
-//    static let BASE_URL = "http://203.100.79.159:9054/"
+    //static let BASE_URL = "http://203.100.79.159:9054/"
     //Current Working For client
     static let BASE_URL = "https://np.seasiafinishingschool.com/igethappy/"
     //Current working for token Implementation

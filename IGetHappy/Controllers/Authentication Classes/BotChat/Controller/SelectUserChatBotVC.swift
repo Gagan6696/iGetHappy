@@ -60,7 +60,7 @@ extension SelectUserChatBotVC:UITableViewDelegate,UITableViewDataSource{
             
             //return CareRecieverData?.data?.count ?? 0
         }else{
-            self.tableViewCareRecivers.setEmptyMessage("No careReciever found")
+            self.tableViewCareRecivers.setEmptyMessage("No Care-Receiver was found")
             return 0
         }
      }

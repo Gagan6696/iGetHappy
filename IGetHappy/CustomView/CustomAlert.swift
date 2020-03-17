@@ -9,22 +9,30 @@
 import UIKit
 
 protocol CustomAlertDelegate {
-    func okayButtonTapped(sender: UIButton)
+    func YesButtonTapped(sender: UIButton)
+    func NoButtonTapped(sender: UIButton)
 }
 class CustomAlert: UIView {
 
     //MARK:- Variables
     var delegate: CustomAlertDelegate?
     @IBOutlet weak var alertMessageLabel: UILabel!
-    @IBOutlet weak var okayButton: UIButton!
+    @IBOutlet weak var noButton: UIButton!
+    
+    @IBOutlet weak var yesButton: UIButton!
     
     //MARK:- Instantiate Method
     class func instanceFromNib() -> CustomAlert {
         return UINib(nibName: CustomAlert.className , bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! CustomAlert
     }
     
-    @IBAction func okayButtonAction(_ sender: UIButton) {
+    @IBAction func NoButtonAction(_ sender: UIButton) {
         self.removeFromSuperview()
-        delegate?.okayButtonTapped(sender: sender)
+        delegate?.NoButtonTapped(sender: sender)
+    }
+    
+    @IBAction func YesButtonAction(_ sender: UIButton) {
+        self.removeFromSuperview()
+        delegate?.YesButtonTapped(sender: sender)
     }
 }
